@@ -1,20 +1,118 @@
 <?xml version="1.0" encoding="UTF-8"?>
 
-<MOML version="1.1.5">
-<UI>
-    <UILAYOUT portrait="720,1280">
-        <LIST layout="0,0,720,1280" align="linear:vertical" dataSource="http://www.ebunyang.co.kr/AjaxContent/?sy_ajax_content=SYFieldReportAPPList" dataList="/DATA/ITEMLIST" divider="#00000000">
-            <LISTLAYOUT align="relative">
-                <WINDOW>
-                    <IMAGE layout="0,0,720,auto" defaultImg="{xpath.evaluate('./SYItem/SYImage/text()')}"/>
-                    <LABEL text="test"/>
-                </WINDOW>
-            </LISTLAYOUT>
+
+
+<MOML version="1.0.0">
+
+
+
+  <UI>
+
+
+
+    <UILAYOUT landscape="800,381"> 
+
+
+
+      <LIST id="product_list" layout="800,332" dataSource="listData.xml" dataList="/DATA/ITEMLIST " divider="#00000000">
+
+
+
+        <LISTLAYOUT>
+
+
+
+          <WINDOW layout="0,0,400,110" align="relative" defaultImg="image/item_list_section.png">
+
+
+
+                
+
+
+
+            <WINDOW id="photowindow" layout="25,5,102,102" align="linear:vertical|center" defaultImg="image/thumb_bg.png">
+
+
+
+              <IMAGE layout="{parent.width-3px},{parent.height-3px}" loadingEffect="fadeIn" loadingImg="image/defaultImg.jpg" defaultImg="{xpath.evaluate('./ITEM/IMAGE/text()')}" />
+
+
+
+            </WINDOW>              
+
+
+
+         
+
+
+
+              <LABEL layout="140,5,233,20"  text="{xpath.evaluate('./ITEM/MAKER/text()')}" fontSize="18" fontStyle="bold" fontColor="#da080b" />
+
+
+
+              <LABEL layout="140,30,233,45" text="{xpath.evaluate('./ITEM/NAME/text()')}" fontSize="14" fontStyle="bold" fontColor="#404040" />                   
+
+
+
+              
+
+
+
+              <LABEL  layout="140,75,80,35" text="{function.left_isEmpty(xpath.evaluate('./ITEM/CUSTAMOUNT/text()'))}" fontSize="15"  fontColor="#a1a1a1" fontStyle="bold" textAlign="center" >
+
+
+
+                 <IMAGE layout="0,{parent.height/2-1},{parent.width},1" defaultImg="{function.left_line(xpath.evaluate('./ITEM/CUSTAMOUNT/text()'))}" />
+
+
+
+              </LABEL>
+
+
+
+              
+
+
+
+              <LABEL layout="{parent.width-self.width-20},75,153,35" text="{xpath.evaluate('./ITEM/AMOUNT/text()')}¿ø" fontSize="23"  fontColor="#fe6c00" fontStyle="bold" textAlign="right|center" />
+
+
+
+              
+
+
+
+              <IMAGE layout="370,43,17,19" defaultImg="image/ico_more.png"/>
+
+
+
+              <BUTTON layout="0,0,400,110" defaultImg="#00000000" pressedImg="#5000ff00" onClick="{userVariable.productURL=first_url.text,function.go_proDetail}" />
+
+
+
+              <LABEL id="first_url" layout="0,0,1,1" text="{xpath.evaluate('./ITEM/URL/text()')}" visible="invisible" />
+
+
+
+            </WINDOW>
+
+
+
+          </LISTLAYOUT>
+
+
+
         </LIST>
 
+
+
     </UILAYOUT>
-</UI>
+
+
+
+  </UI>
+
+
+
 </MOML>
-
-
 

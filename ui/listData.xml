@@ -1,0 +1,148 @@
+
+
+
+
+<xml version="1.0"encoding="UTF-8"?>
+
+
+
+<DATA>
+
+
+
+  <CATEGORYGROUP>
+
+
+
+    <IMAGE>
+
+
+
+      <TITLE>http://localhost/mall/data/category/1020_ctlog</TITLE>
+
+
+
+    </IMAGE>
+
+
+
+    <a href='../mall/../logeo/list_item.php?ca_id=1020'>
+
+
+
+ <LABEL id="list_all"text="all" url="./list_item.php?ca_id=1020"/>
+
+
+
+</a>
+
+
+
+    <CATEGORY id="list_category_0">
+
+
+
+      <NAME><![CDATA[Slite]]></NAME>
+
+
+
+      <URL>http://localhost/logeo/list_item.php?ca_id=102010</URL>
+
+
+
+    </CATEGORY>
+
+
+
+      <CATEGORY id="list_category_1">
+
+
+
+      <NAME><![CDATA[WMF]]></NAME>
+
+
+
+      <URL>http://localhost/logeo/list_item.php?ca_id=102020</URL>
+
+
+
+    </CATEGORY>
+
+
+
+  </CATEGORYGROUP>
+
+
+
+  <ITEMLIST>
+
+
+
+    <ITEM id="item_5644178937">
+
+
+
+      <IMAGE>http://localhost/mall/data/item/5644178937_m</IMAGE>
+
+
+
+      <NAME><![CDATA[Title1]]></NAME>
+
+
+
+      <MAKER><![CDATA[[product1]]]></MAKER>
+
+
+
+      <CUSTAMOUNT>329,000</CUSTAMOUNT>
+
+
+
+      <AMOUNT>369,500</AMOUNT>
+
+
+
+      <URL>http://localhost/logeo/item.php?it_id=5644178937</URL>
+
+
+
+    </ITEM>
+
+
+
+    <ITEM id="item_5644178936">
+
+
+
+      <IMAGE>http://localhost/mall/data/item/5644178936_m</IMAGE>
+
+
+
+      <NAME><![CDATA[Title2]]></NAME>
+
+
+
+      <MAKER><![CDATA[[product2]]]></MAKER>
+
+
+
+      <CUSTAMOUNT>361,000</CUSTAMOUNT>
+
+
+
+      <AMOUNT>291,500</AMOUNT>
+
+
+
+      <URL>http://localhost/item.php?it_id=5644178936</URL>
+
+
+
+    </ITEM>
+
+
+
+  </ITEMLIST>
+
+
+</DATA>
