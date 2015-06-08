@@ -2,8 +2,9 @@
 
 <MOML>
     <APPLICATIONINFO>
-        <START url="ui/start.xml"/>
+		<UPDATEINFO realTimeType="qMark" />
+		<START url="ui/start.xml" />
+		<ORIENTATION type="portrait" effect="none" />
 		<DEBUG suppressError="all"/>
-        <ORIENTATION type="defaultPortrait" />
     </APPLICATIONINFO>
 </MOML>
