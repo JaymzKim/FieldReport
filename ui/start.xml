@@ -7,7 +7,7 @@
             <LISTLAYOUT align="relative">
                 <WINDOW>
                     <IMAGE layout="0,0,720,auto" align="relative" defaultImg="{xpath.evaluate('./SYImage/text()')}"/>
-                    <LABEL align="relative" text="{xpath.evaluate('./SYTitle/text()')}"/>
+                    <LABEL align="relative" text="{xpath.evaluate('./SYTitle/text()')}" fontSize="40" minFontSize="-1" textAlign="vCenter" fontStyle="bold" textColor="#ffffff" textShadow="#90000000"/>
                 </WINDOW>
             </LISTLAYOUT>
         </LIST>
