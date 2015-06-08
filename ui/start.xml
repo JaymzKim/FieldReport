@@ -5,12 +5,12 @@
     <UILAYOUT portrait="720,1280">
         <LIST layout="0,0,720,1280" align="linear:vertical" dataSource="http://www.ebunyang.co.kr/AjaxContent/?sy_ajax_content=SYFieldReportAPPList" dataList="/DATA/ITEMLIST/SYItem" divider="#00000000">
             <LISTLAYOUT align="relative">
-                <WINDOW align="linear:vertical">
-                    <IMAGE align="linear:vertical" defaultImg="{xpath.evaluate('./SYImage/text()')}"/>
-                    <LABEL align="linear:vertical" text="{xpath.evaluate('./SYTitle/text()')}" fontSize="60" minFontSize="-1" textAlign="vCenter" fontStyle="bold" textColor="#ffffff" textShadow="#90000000"/>
+                <WINDOW>
+                    <IMAGE layout="0,0,720,auto" align="linear:vertical" defaultImg="{xpath.evaluate('./SYImage/text()')}"/>
+                    <LABEL layout="25,parent.height-60,450,80" align="linear:vertical" text="{xpath.evaluate('./SYTitle/text()')}" fontSize="60" minFontSize="-1" textAlign="vCenter" fontStyle="bold" textColor="#ffffff" textShadow="#90000000"/>
                 </WINDOW>
-				<WINDOW align="linear:vertical">
-                    <LABEL align="relative" text="{xpath.evaluate('./SYMemo/text()')}" fontSize="12" minFontSize="-1" textColor="#585858" defaultImg="#ffffff"/>
+				<WINDOW>
+                    <LABEL layout="25,20,700,80" align="relative" text="{xpath.evaluate('./SYMemo/text()')}" fontSize="12" minFontSize="-1" textColor="#585858" defaultImg="#ffffff"/>
 				</WINDOW>
             </LISTLAYOUT>
         </LIST>
