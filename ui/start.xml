@@ -74,7 +74,7 @@
 
 
 
-              <LABEL layout="{parent.width-self.width-20},75,153,35" text="{xpath.evaluate('./ITEM/AMOUNT/text()')}¿ø" fontSize="23"  fontColor="#fe6c00" fontStyle="bold" textAlign="right|center" />
+              <LABEL layout="{parent.width-self.width-20},75,153,35" text="¿ø" fontSize="23"  fontColor="#fe6c00" fontStyle="bold" textAlign="right|center" />
 
 
 
