@@ -3,7 +3,7 @@
 <MOML>
     <APPLICATIONINFO>
         <START url="ui/start.xml"/>
-        <AUTOFIT toleranceRatio="0" />
+		<DEBUG suppressError="all"/>
         <ORIENTATION type="defaultPortrait" />
     </APPLICATIONINFO>
 </MOML>
