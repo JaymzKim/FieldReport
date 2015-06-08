@@ -3,7 +3,7 @@
 <MOML version="1.1.5" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="http://www.applusform.com/xsd/moml_ui_1.1.5.xsd">
 
     <UILAYOUT portrait="720,1280">
-        <LIST layout="720,1220" dataSource="http://www.ebunyang.co.kr/AjaxContent/?sy_ajax_content=SYFieldReportAPPList" dataList="/channel">
+        <LIST dataSource="http://www.ebunyang.co.kr/AjaxContent/?sy_ajax_content=SYFieldReportAPPList" dataList="/channel">
             <LISTLAYOUT>
                 <WINDOW defaultImg="#FFFFFF">
                     <IMAGE layout="720,auto" defaultImg="{xpath.evaluate('./SYItem/SYImage/text()')}"/>
