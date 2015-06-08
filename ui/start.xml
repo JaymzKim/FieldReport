@@ -7,7 +7,7 @@
             <LISTLAYOUT align="relative">
                 <WINDOW>
                     <IMAGE layout="0,0,720,auto" align="linear:vertical" defaultImg="{xpath.evaluate('./SYImage/text()')}"/>
-                    <LABEL layout="25,parent.height-60,700,80" align="linear:vertical" text="{xpath.evaluate('./SYTitle/text()')}" fontSize="60" minFontSize="-1" textAlign="vCenter" fontStyle="bold" textColor="#ffffff" textShadow="#90000000"/>
+                    <LABEL layout="25,parent.height-60,700,80" align="linear:vertical" text="{xpath.evaluate('./SYTitle/text()')}" fontSize="50" minFontSize="-1" textAlign="vCenter" fontStyle="bold" textColor="#ffffff" textShadow="#90000000"/>
                     <LABEL align="linear:vertical" text="{xpath.evaluate('./SYMemo/text()')}" fontSize="12" minFontSize="-1" textColor="#585858" defaultImg="#ffffff"/>
                 </WINDOW>
             </LISTLAYOUT>
