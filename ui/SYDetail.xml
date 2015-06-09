@@ -21,7 +21,7 @@
 				<CMD cmd="titleLine.defaultImg='#dfe0df'" />
 				<CMD cmd="titleLabel.textColor='#000000'" />
 				<CMD cmd="titleSubLabel.textColor='#565a5c'" />
-				<CMD cmd="titleBack.defaultImg='res/ic_ab_back_gray.png'" />
+				<CMD cmd="titleBack.defaultImg='res/sy_btn_back01.png'" />
 				<CMD cmd="titleLogo.defaultImg='res/ic_logo.png'" />
 			</ELSECMD>
 		</CMD>
