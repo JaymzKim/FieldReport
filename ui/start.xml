@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 
 <MOML version="1.1.5">
-<FUNCTION id="SYDefailPopup(sy_id)">
+<FUNCTION id="SYDefailPopup(sy_value)">
 	<CMD cmd="userVariable.detailY = sy_id.top - SYProductList.scrollY" />
-	<CMD cmd="userVariable.sy_id = sy_id" />
+	<CMD cmd="userVariable.sy_id = sy_value" />
 	<CMD cmd="container.open('SYDetail.xml','new')" />
 </FUNCTION>
 <UI>
