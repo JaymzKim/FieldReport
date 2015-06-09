@@ -8,7 +8,7 @@
                 <WINDOW defaultImg="#ffffff" align="flow:vertical">
                     <IMAGE layout="720,auto" align="linear:vertical" defaultImg="{xpath.evaluate('./SYImage/text()')}"/>
                     <LABEL layout="25,prev.height-80,700,60" align="linear:vertical" text="{xpath.evaluate('./SYTitle/text()')}" fontSize="50" minFontSize="-1" fontStyle="bold" textColor="#ffffff" textShadow="#90000000"/>
-                    <LABEL layout="720,500" padding="20,40,20,40" textAlign="center|vCenter" align="flow:vertical" text="{xpath.evaluate('./SYMemo/text()')}" fontSize="30" minFontSize="-1" multiLine="auto" textColor="#585858" defaultImg="#ffffff"/>
+                    <LABEL padding="20,40,20,40" textAlign="center|vCenter" align="flow:vertical" text="{xpath.evaluate('./SYMemo/text()')}" fontSize="30" minFontSize="-1" multiLine="auto" textColor="#585858" defaultImg="#ffffff"/>
                 </WINDOW>
             </LISTLAYOUT>
         </LIST>
