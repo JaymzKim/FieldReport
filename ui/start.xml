@@ -11,7 +11,7 @@
 						<LABEL layout="25,prev.height-80,700,60" align="linear:vertical" text="{xpath.evaluate('./SYTitle/text()')}" fontSize="50" minFontSize="-1" fontStyle="bold" textColor="#ffffff" textShadow="#90000000"/>
 					</WINDOW>
 					<WINDOW layout="720,auto" align="flow:vertical">
-						<LABEL layout="720,auto" padding="20,40,20,40" textAlign="center|vCenter" text="{xpath.evaluate('./SYMemo/text()')}" fontSize="30" minFontSize="-1" multiLine="true" textColor="#585858" defaultImg="#ffffff"/>
+						<LABEL layout="720,auto" padding="20,40,20,40" textAlign="center" text="{xpath.evaluate('./SYMemo/text()')}" fontSize="30" minFontSize="-1" multiLine="true" textColor="#585858" defaultImg="#ffffff"/>
 					</WINDOW>
                 </WINDOW>
             </LISTLAYOUT>
