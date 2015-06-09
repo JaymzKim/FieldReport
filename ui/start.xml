@@ -1,14 +1,16 @@
 <?xml version="1.0" encoding="UTF-8"?>
 
 <MOML version="1.1.5">
-<FUNCTION id="SYDetailPopup">
+<FUNCTION id="SYDetailPopup(sy_value)">
+	<CMD cmd="userVariable.detailY = sy_id.top - SYProductList.scrollY" />
+	<CMD cmd="userVariable.sy_id = sy_value" />
 	<CMD cmd="container.open('SYDetail.xml','new')" />
 </FUNCTION>
 <UI>
     <UILAYOUT portrait="720,1230" landscape="720,1230">
         <LIST id="SYProductList" layout="0,0,720,1230" align="linear:vertical" dataSource="http://www.ebunyang.co.kr/AjaxContent/?sy_ajax_content=SYFieldReportAPPList" dataList="/DATA/ITEMLIST/SYItem" divider="none">
             <LISTLAYOUT align="linear:vertical">
-                <WINDOW id="{xpath.evaluate('./SYId/text()')}" defaultImg="#ffffff" align="flow:vertical" onClick="function.SYDetailPopup">
+                <WINDOW id="{xpath.evaluate('./SYId/text()')}" defaultImg="#ffffff" align="flow:vertical" onClick="function.SYDetailPopup(''+xpath.evaluate('./SYId/text()')+'')">
 					<WINDOW align="relative">
 						<IMAGE layout="0,0,720,auto" align="linear:vertical" loadingEffect="fadeIn" loadingImg="#e5e5e5" defaultImg="{xpath.evaluate('./SYImage/text()')}"/>
 						<LABEL layout="25,prev.height-80,700,60" align="linear:vertical" text="{xpath.evaluate('./SYTitle/text()')}" fontSize="50" minFontSize="-1" fontStyle="bold" textColor="#ffffff" textShadow="#90000000"/>
