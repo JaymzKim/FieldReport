@@ -1,8 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
 
 <MOML version="1.1.5">
-<FUNCTION id="SYDetailPopup(sy_value)">
-	<CMD cmd="userVariable.sy_id = sy_value" />
+<FUNCTION id="SYDetailPopup">
+	<CMD cmd="userVariable.sy_id = 'gggg'" />
 	<CMD cmd="container.open('SYDetail.xml','new')" />
 </FUNCTION>
 <UI>
