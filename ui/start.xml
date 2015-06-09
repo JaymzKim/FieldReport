@@ -4,7 +4,7 @@
 <UI>
     <UILAYOUT portrait="720,1230" landscape="720,1230">
         <LIST layout="0,0,720,1230" align="linear:vertical" dataSource="http://www.ebunyang.co.kr/AjaxContent/?sy_ajax_content=SYFieldReportAPPList" dataList="/DATA/ITEMLIST/SYItem" divider="none">
-            <LISTLAYOUT align="flow:vertical">
+            <LISTLAYOUT align="linear:vertical">
                 <WINDOW defaultImg="#ffffff" align="flow:vertical">
                     <IMAGE layout="0,0,720,auto" align="flow:vertical" defaultImg="{xpath.evaluate('./SYImage/text()')}"/>
                     <LABEL layout="25,prev.height-80,700,60" align="flow:vertical" text="{xpath.evaluate('./SYTitle/text()')}" fontSize="50" minFontSize="-1" fontStyle="bold" textColor="#ffffff" textShadow="#90000000"/>
