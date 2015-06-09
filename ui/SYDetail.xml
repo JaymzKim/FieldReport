@@ -189,10 +189,9 @@
 					<IMAGE layout="627,33,70,78" defaultImg="res/wishlist_heart_unselected.png" />
 				</WINDOW>
 			</WINDOW>
-			<WINDOW id="title" layout="0,0,720,92" defaultImg="#00ffffff" align="relative">
-				<BUTTON layout="0,0,105,92" defaultImg="#00ffffff" onClick="container.close()">
-					<IMAGE id="titleBack" layout="0,33,35,35" defaultImg="res/ic_ab_back_white.png" />
-					<IMAGE id="titleLogo" layout="36,14,65,68" defaultImg="res/ic_stat_notify.png" />
+			<WINDOW id="title" layout="0,0,720,7mm" defaultImg="#00ffffff" align="relative">
+				<BUTTON layout="0,0,7mm,7mm" defaultImg="#00ffffff" onClick="container.close()">
+					<IMAGE id="titleBack" layout="0,0,7mm,7mm" defaultImg="res/sy_btn_back01.png" />
 				</BUTTON>
 				<LABEL id="titleLabel" layout="115,0,530,52" text="Luxury condo downtown-Spa/Pool-4pax" fontSize="30" minFontSize="-1" textAlign="vCenter" textColor="#000000" fontFace="res/circular_book.otf" />
 				<LABEL id="titleSubLabel" layout="115,52,530,40" text="싱가폴(Singapore), 싱가포르" fontSize="25" minFontSize="-1" textAlign="vCenter" textColor="#565a5c" fontFace="res/circular_book.otf" />
