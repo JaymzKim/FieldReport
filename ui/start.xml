@@ -6,7 +6,7 @@
         <LIST layout="0,0,720,1230" align="linear:vertical" dataSource="http://www.ebunyang.co.kr/AjaxContent/?sy_ajax_content=SYFieldReportAPPList" dataList="/DATA/ITEMLIST/SYItem" divider="none">
             <LISTLAYOUT align="linear:vertical">
                 <WINDOW defaultImg="#ffffff" align="flow:vertical">
-                    <IMAGE layout="0,0,720,auto" align="linear:vertical" defaultImg="{xpath.evaluate('./SYImage/text()')}"/>
+                    <IMAGE layout="720,auto" align="linear:vertical" defaultImg="{xpath.evaluate('./SYImage/text()')}"/>
                     <LABEL layout="25,prev.height-80,700,60" align="linear:vertical" text="{xpath.evaluate('./SYTitle/text()')}" fontSize="50" minFontSize="-1" fontStyle="bold" textColor="#ffffff" textShadow="#90000000"/>
                     <LABEL layout="auto,auto" padding="20,40,20,40" textAlign="center|vCenter" align="linear:vertical" text="{xpath.evaluate('./SYMemo/text()')}" fontSize="30" minFontSize="-1" multiLine="true" textColor="#585858" defaultImg="#ffffff"/>
                 </WINDOW>
