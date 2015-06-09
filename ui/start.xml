@@ -2,7 +2,6 @@
 
 <MOML version="1.1.5">
 <FUNCTION id="SYDetailPopup(sy_value)">
-	<CMD cmd="userVariable.detailY = sy_id.top - SYProductList.scrollY" />
 	<CMD cmd="userVariable.sy_id = sy_value" />
 	<CMD cmd="container.open('SYDetail.xml','new')" />
 </FUNCTION>
