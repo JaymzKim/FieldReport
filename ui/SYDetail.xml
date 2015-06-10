@@ -63,7 +63,7 @@
 
 				<WINDOW layout="0,480,720,824" defaultImg="#ffffff" align="relative">
 					<LABEL layout="50,30,620,122" text="{xpath.evaluateEx('DetailBasic',
-'/DATA/ITEMLIST/SYItem[1]/SYTitle/text()')}" fontSize="50" minFontSize="-1" fontStyle="bold" textAlign="center" multiLine="true" textColor="#565a5c"
+'/DATA/ITEMLIST/SYItem[0]/SYTitle/text()')}" fontSize="50" minFontSize="-1" fontStyle="bold" textAlign="center" multiLine="true" textColor="#565a5c"
 						fontFace="res/circular_book.otf" />
 					<WINDOW layout="0,160,720,40" align="linear:horizontal|center">
 						<IMAGE layout="30,30" defaultImg="res/small_star_selected.png" />
