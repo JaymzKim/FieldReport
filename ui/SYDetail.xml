@@ -61,7 +61,7 @@
 				</CONTAINER>
 
 				<WINDOW layout="0,480,720,824" defaultImg="#ffffff" align="relative">
-					<LABEL layout="50,30,620,122" text="Luxury condo downtown-Spa/Pool-4pax" fontSize="50" minFontSize="-1" fontStyle="bold" textAlign="center" multiLine="true" textColor="#565a5c"
+					<LABEL layout="50,30,620,122" text="Luxury cccccccondo downtown-Spa/Pool-4pax" fontSize="50" minFontSize="-1" fontStyle="bold" textAlign="center" multiLine="true" textColor="#565a5c"
 						fontFace="res/circular_book.otf" />
 					<WINDOW layout="0,160,720,40" align="linear:horizontal|center">
 						<IMAGE layout="30,30" defaultImg="res/small_star_selected.png" />
@@ -72,97 +72,97 @@
 						<LABEL layout="60,27" text="3" fontSize="25" minFontSize="-1" fontStyle="bold" textAlign="center" textColor="#82898d" margin="5,0,0,0" />
 					</WINDOW>
 					<STYLEBUTTON layout="280,219,163,163" shape="circle" defaultImg="res/original.jpg" borderStyle="solid:2|#ffffff" />
-					<LABEL layout="0,407,720,96" text="{'Áý ÀüÃ¼' +'\n'+ 'Frank´ÔÀÌ È£½ºÆÃ ÇÏ¼Ì½À´Ï´Ù'}" fontSize="35" minFontSize="-1" textAlign="center" textColor="#82898d" fontFace="res/circular_book.otf" />
+					<LABEL layout="0,407,720,96" text="{'ì§‘ ì „ì²´' +'\n'+ 'Frankë‹˜ì´ í˜¸ìŠ¤íŒ… í•˜ì…¨ìŠµë‹ˆë‹¤'}" fontSize="35" minFontSize="-1" textAlign="center" textColor="#82898d" fontFace="res/circular_book.otf" />
 					<LABEL layout="30,523,660,2" defaultImg="#dfe0df" />
 
 					<WINDOW layout="0,525,720,150" align="relative">
 						<IMAGE layout="100,20,84,84" defaultImg="res/icon_p3_guests.png" />
-						<LABEL layout="65,107,154,38" text="°Ô½ºÆ® 1¸í" fontSize="30" minFontSize="-1" fontStyle="bold" textAlign="center" textColor="#82898d" />
+						<LABEL layout="65,107,154,38" text="ê²ŒìŠ¤íŠ¸ 1ëª…" fontSize="30" minFontSize="-1" fontStyle="bold" textAlign="center" textColor="#82898d" />
 						<IMAGE layout="318,20,84,84" defaultImg="res/icon_p3_rooms.png" margin="130,0,0,0" />
-						<LABEL layout="306,107,113,38" text="¹æ 1¸í" fontSize="30" minFontSize="-1" fontStyle="bold" textAlign="center" textColor="#82898d" />
+						<LABEL layout="306,107,113,38" text="ë°© 1ëª…" fontSize="30" minFontSize="-1" fontStyle="bold" textAlign="center" textColor="#82898d" />
 						<IMAGE layout="540,20,84,84" defaultImg="res/icon_p3_beds.png" margin="130,0,0,0" />
-						<LABEL layout="522,107,123,38" text="Ä§´ë 1¸í" fontSize="30" minFontSize="-1" fontStyle="bold" textAlign="center" textColor="#82898d" />
+						<LABEL layout="522,107,123,38" text="ì¹¨ëŒ€ 1ëª…" fontSize="30" minFontSize="-1" fontStyle="bold" textAlign="center" textColor="#82898d" />
 					</WINDOW>
-					<STYLEBUTTON layout="181,698,360,96" shape="roundRect(10)" defaultImg="#00ffffff" pressedImg="#80ff5a5f" text="È£½ºÆ®¿¡°Ô ¿¬¶ôÇÏ±â" fontSize="40" textAlign="center" textColor="#ff5a5f"
+					<STYLEBUTTON layout="181,698,360,96" shape="roundRect(10)" defaultImg="#00ffffff" pressedImg="#80ff5a5f" text="í˜¸ìŠ¤íŠ¸ì—ê²Œ ì—°ë½í•˜ê¸°" fontSize="40" textAlign="center" textColor="#ff5a5f"
 						borderStyle="solid:2|#ff5a5f" />
 				</WINDOW>
 
 				<WINDOW layout="0,1304,720,778" defaultImg="#f5f6f5" align="relative">
-					<LABEL layout="0,53,720,40" text="ÈÄ±â 3°³" fontSize="30" minFontSize="-1" fontStyle="bold" textAlign="center" textColor="#565a5c" />
+					<LABEL layout="0,53,720,40" text="í›„ê¸° 3ê°œ" fontSize="30" minFontSize="-1" fontStyle="bold" textAlign="center" textColor="#565a5c" />
 					<STYLEBUTTON layout="282,128,163,163" shape="circle" defaultImg="res/original1.jpg" />
 					<LABEL layout="0,326,720,40" text="Hasham" fontSize="30" minFontSize="-1" fontStyle="bold" textAlign="center" textColor="#565a5c" fontFace="res/circular_book.otf" />
-					<LABEL layout="0,366,720,40" text="2013³â 9¿ù" fontSize="30" minFontSize="-1" fontStyle="bold" textAlign="center" textColor="#82898d" fontFace="res/circular_book.otf" />
+					<LABEL layout="0,366,720,40" text="2013ë…„ 9ì›”" fontSize="30" minFontSize="-1" fontStyle="bold" textAlign="center" textColor="#82898d" fontFace="res/circular_book.otf" />
 					<LABEL layout="0,433,720,186" text="Frank's apartment is very conveniently located, suitably bright, and minimally yet thoughtfully laid out. it has everything one person would need for a cosy couple of..."
 						fontSize="30" minFontSize="-1" fontStyle="bold" textAlign="center" textColor="#82898d" fontFace="res/circular_book.otf" />
-					<STYLEBUTTON layout="255,644,209,96" shape="roundRect(10)" defaultImg="#00ffffff" pressedImg="#80ff5a5f" text="¸ðµÎ º¸±â" fontSize="40" textAlign="center" textColor="#ff5a5f" borderStyle="solid:2|#ff5a5f" />
+					<STYLEBUTTON layout="255,644,209,96" shape="roundRect(10)" defaultImg="#00ffffff" pressedImg="#80ff5a5f" text="ëª¨ë‘ ë³´ê¸°" fontSize="40" textAlign="center" textColor="#ff5a5f" borderStyle="solid:2|#ff5a5f" />
 				</WINDOW>
 				<LABEL layout="0,2082,720,520" defaultImg="res/map.png" />
 				<WINDOW layout="0,2602,720,620" defaultImg="#f5f6f5" align="relative">
-					<LABEL layout="0,49,720,40" text="¼³¸í" fontSize="30" minFontSize="-1" fontStyle="bold" textAlign="center" textColor="#565a5c" />
+					<LABEL layout="0,49,720,40" text="ì„¤ëª…" fontSize="30" minFontSize="-1" fontStyle="bold" textAlign="center" textColor="#565a5c" />
 					<LABEL layout="30,121,660,347"
 						text="{'- Located in the center of Berlin Mitte\n- quiet building, 1-bedroom apartment\n- simply furnished\n- WLAN, washing MAchine are included\n- No Kitchen\n\n If you have an question, fell free to contact me.\nI would be glad to see you soon!\nBest regards, Frank'}"
 						fontSize="30" minFontSize="-1" fontStyle="bold" textAlign="vCenter" textColor="#82898d" fontFace="res/circular_book.otf" />
-					<STYLEBUTTON layout="242,508,239,96" shape="roundRect(10)" defaultImg="#00ffffff" pressedImg="#80ff5a5f" text="´õ ÀÐ¾îº¸±â" fontSize="40" textAlign="center" textColor="#ff5a5f"
+					<STYLEBUTTON layout="242,508,239,96" shape="roundRect(10)" defaultImg="#00ffffff" pressedImg="#80ff5a5f" text="ë” ì½ì–´ë³´ê¸°" fontSize="40" textAlign="center" textColor="#ff5a5f"
 						borderStyle="solid:2|#ff5a5f" />
 				</WINDOW>
 
 				<WINDOW layout="0,3533,720,1230" defaultImg="#f5f6f5" align="linear:vertical|subCenter">
-					<LABEL layout="720,94" text="¼÷¼Ò" fontSize="30" minFontSize="-1" fontStyle="bold" textAlign="center" textColor="#565a5c" margin="0,39,0,0" />
+					<LABEL layout="720,94" text="ìˆ™ì†Œ" fontSize="30" minFontSize="-1" fontStyle="bold" textAlign="center" textColor="#565a5c" margin="0,39,0,0" />
 					<LABEL layout="660,2" defaultImg="#dfe0df" />
 					<WINDOW layout="660,94" align="linear:horizontal">
-						<LABEL layout="544,94" text="¼÷¼Ò À¯Çü" fontSize="30" minFontSize="-1" textAlign="vCenter" textColor="#82898d" />
-						<LABEL layout="116,94" text="Áý ÀüÃ¼" fontSize="30" minFontSize="-1" textAlign="vCenter|right" textColor="#565a5c" />
+						<LABEL layout="544,94" text="ìˆ™ì†Œ ìœ í˜•" fontSize="30" minFontSize="-1" textAlign="vCenter" textColor="#82898d" />
+						<LABEL layout="116,94" text="ì§‘ ì „ì²´" fontSize="30" minFontSize="-1" textAlign="vCenter|right" textColor="#565a5c" />
 					</WINDOW>
 					<LABEL layout="660,2" defaultImg="#dfe0df" />
 					<WINDOW layout="660,94" align="linear:horizontal">
-						<LABEL layout="544,94" text="¼ö¿ë ÀÎ¿ø" fontSize="30" minFontSize="-1" textAlign="vCenter" textColor="#82898d" />
+						<LABEL layout="544,94" text="ìˆ˜ìš© ì¸ì›" fontSize="30" minFontSize="-1" textAlign="vCenter" textColor="#82898d" />
 						<LABEL layout="116,94" text="1" fontSize="30" minFontSize="-1" textAlign="vCenter|right" textColor="#565a5c" />
 					</WINDOW>
 					<LABEL layout="660,2" defaultImg="#dfe0df" />
 					<WINDOW layout="660,94" align="linear:horizontal">
-						<LABEL layout="544,94" text="Ä§½Ç" fontSize="30" minFontSize="-1" textAlign="vCenter" textColor="#82898d" />
+						<LABEL layout="544,94" text="ì¹¨ì‹¤" fontSize="30" minFontSize="-1" textAlign="vCenter" textColor="#82898d" />
 						<LABEL layout="116,94" text="1" fontSize="30" minFontSize="-1" textAlign="vCenter|right" textColor="#565a5c" />
 					</WINDOW>
 					<LABEL layout="660,2" defaultImg="#dfe0df" />
 					<WINDOW layout="660,94" align="linear:horizontal">
-						<LABEL layout="544,94" text="¿å½Ç" fontSize="30" minFontSize="-1" textAlign="vCenter" textColor="#82898d" />
+						<LABEL layout="544,94" text="ìš•ì‹¤" fontSize="30" minFontSize="-1" textAlign="vCenter" textColor="#82898d" />
 						<LABEL layout="116,94" text="1" fontSize="30" minFontSize="-1" textAlign="vCenter|right" textColor="#565a5c" />
 					</WINDOW>
 					<LABEL layout="660,2" defaultImg="#dfe0df" />
 					<WINDOW layout="660,94" align="linear:horizontal">
-						<LABEL layout="544,94" text="Ä§´ë" fontSize="30" minFontSize="-1" textAlign="vCenter" textColor="#82898d" />
+						<LABEL layout="544,94" text="ì¹¨ëŒ€" fontSize="30" minFontSize="-1" textAlign="vCenter" textColor="#82898d" />
 						<LABEL layout="116,94" text="1" fontSize="30" minFontSize="-1" textAlign="vCenter|right" textColor="#565a5c" />
 					</WINDOW>
 					<LABEL layout="660,2" defaultImg="#dfe0df" />
-					<LABEL layout="720,94" text="»ó¼¼ Á¤º¸" fontSize="30" minFontSize="-1" textAlign="center" textColor="#565a5c" margin="0,39,0,0" />
+					<LABEL layout="720,94" text="ìƒì„¸ ì •ë³´" fontSize="30" minFontSize="-1" textAlign="center" textColor="#565a5c" margin="0,39,0,0" />
 					<LABEL layout="660,2" defaultImg="#dfe0df" />
 					<WINDOW layout="660,94" align="linear:horizontal">
-						<LABEL layout="544,94" text="ÃÖ¼Ò ¼÷¹Ú °¡´É ÀÏ¼ö" fontSize="30" minFontSize="-1" textAlign="vCenter" textColor="#82898d" />
-						<LABEL layout="116,94" text="8¹Ú" fontSize="30" minFontSize="-1" textAlign="vCenter|right" textColor="#565a5c" />
+						<LABEL layout="544,94" text="ìµœì†Œ ìˆ™ë°• ê°€ëŠ¥ ì¼ìˆ˜" fontSize="30" minFontSize="-1" textAlign="vCenter" textColor="#82898d" />
+						<LABEL layout="116,94" text="8ë°•" fontSize="30" minFontSize="-1" textAlign="vCenter|right" textColor="#565a5c" />
 					</WINDOW>
 					<LABEL layout="660,2" defaultImg="#dfe0df" />
 					<WINDOW layout="660,94" align="linear:horizontal">
-						<LABEL layout="544,94" text="È¯ºÒ Á¤Ã¥" fontSize="30" minFontSize="-1" textAlign="vCenter" textColor="#82898d" />
-						<LABEL layout="116,94" text="¾ö°Ý" fontSize="30" minFontSize="-1" textAlign="vCenter|right" textColor="#ff5a5f" />
+						<LABEL layout="544,94" text="í™˜ë¶ˆ ì •ì±…" fontSize="30" minFontSize="-1" textAlign="vCenter" textColor="#82898d" />
+						<LABEL layout="116,94" text="ì—„ê²©" fontSize="30" minFontSize="-1" textAlign="vCenter|right" textColor="#ff5a5f" />
 					</WINDOW>
 					<LABEL layout="660,2" defaultImg="#dfe0df" />
 					<WINDOW layout="660,94" align="linear:horizontal">
-						<LABEL layout="544,94" text="¼÷¼Ò ÀÌ¿ë ±ÔÄ¢" fontSize="30" minFontSize="-1" textAlign="vCenter" textColor="#82898d" />
-						<LABEL layout="116,94" text="º¸±â" fontSize="30" minFontSize="-1" textAlign="vCenter|right" textColor="#ff5a5f" />
+						<LABEL layout="544,94" text="ìˆ™ì†Œ ì´ìš© ê·œì¹™" fontSize="30" minFontSize="-1" textAlign="vCenter" textColor="#82898d" />
+						<LABEL layout="116,94" text="ë³´ê¸°" fontSize="30" minFontSize="-1" textAlign="vCenter|right" textColor="#ff5a5f" />
 					</WINDOW>
 					<LABEL layout="660,2" defaultImg="#dfe0df" />
 					<WINDOW layout="660,94" align="linear:horizontal">
-						<LABEL layout="544,94" text="¿¹¾à °¡´É¿©ºÎ" fontSize="30" minFontSize="-1" textAlign="vCenter" textColor="#82898d" />
-						<LABEL layout="116,94" text="´Þ·Â º¸±â" fontSize="30" minFontSize="-1" textAlign="vCenter|right" textColor="#ff5a5f" />
+						<LABEL layout="544,94" text="ì˜ˆì•½ ê°€ëŠ¥ì—¬ë¶€" fontSize="30" minFontSize="-1" textAlign="vCenter" textColor="#82898d" />
+						<LABEL layout="116,94" text="ë‹¬ë ¥ ë³´ê¸°" fontSize="30" minFontSize="-1" textAlign="vCenter|right" textColor="#ff5a5f" />
 					</WINDOW>
 					<LABEL layout="660,2" defaultImg="#dfe0df" />
 					<WINDOW layout="660,94" align="linear:horizontal">
-						<LABEL layout="544,94" text="»ó¼¼ °¡°Ý" fontSize="30" minFontSize="-1" textAlign="vCenter" textColor="#82898d" />
-						<LABEL layout="116,94" text="º¸±â" fontSize="30" minFontSize="-1" textAlign="vCenter|right" textColor="#ff5a5f" />
+						<LABEL layout="544,94" text="ìƒì„¸ ê°€ê²©" fontSize="30" minFontSize="-1" textAlign="vCenter" textColor="#82898d" />
+						<LABEL layout="116,94" text="ë³´ê¸°" fontSize="30" minFontSize="-1" textAlign="vCenter|right" textColor="#ff5a5f" />
 					</WINDOW>
 				</WINDOW>
 				<WINDOW layout="0,5044,720,377" defaultImg="#f5f6f5" align="relative">
-					<LABEL layout="0,39,720,94" text="ÆíÀÇ ½Ã¼³" fontSize="30" minFontSize="-1" fontStyle="bold" textAlign="center" textColor="#565a5c" />
+					<LABEL layout="0,39,720,94" text="íŽ¸ì˜ ì‹œì„¤" fontSize="30" minFontSize="-1" fontStyle="bold" textAlign="center" textColor="#565a5c" />
 					<WINDOW layout="30,133,660,94" align="linear:horizontal|hJustify">
 						<IMAGE layout="50,50" defaultImg="res/icon_am_tv.png" />
 						<IMAGE layout="50,50" defaultImg="res/icon_am_cabletv.png" />
@@ -173,19 +173,19 @@
 				</WINDOW>
 
 				<WINDOW layout="0,5732,720,895" defaultImg="#f5f6f5" align="relative">
-					<LABEL layout="0,39,720,94" text="Lan ¼Ò°³" fontSize="30" minFontSize="-1" fontStyle="bold" textAlign="center" textColor="#565a5c" />
+					<LABEL layout="0,39,720,94" text="Lan ì†Œê°œ" fontSize="30" minFontSize="-1" fontStyle="bold" textAlign="center" textColor="#565a5c" />
 					<STYLEBUTTON layout="280,128,163,163" shape="circle" defaultImg="res/original.jpg" borderStyle="solid:2|#ffffff" />
 					<LABEL layout="0,310,720,40" text="Saint-Lazare, Quebec, Canada" fontSize="30" minFontSize="-1" fontStyle="bold" textAlign="center" textColor="#565a5c" fontFace="res/circular_book.otf" />
 					<LABEL layout="30,393,660,220"
 						text="{'artist and filmmaker couple, we like to garden, cook, make art, Michelle is also an Rn. Two grown daughters out of house. 3cats. We enjoy improving our historic house, barns and grounds.'}"
 						fontSize="35" minFontSize="-1" fontStyle="bold" textAlign="center" ellipsis="end" textColor="#82898d" multiLine="true" fontFace="res/circular_book.otf" />
-					<STYLEBUTTON layout="142,630,437,96" shape="roundRect(10)" defaultImg="#00ffffff" pressedImg="#80ff5a5f" text="È£½ºÆ®¿¡ ´ëÇÑ ÀÚ¼¼ÇÑ Á¤º¸" fontSize="40" textAlign="center" textColor="#ff5a5f"
+					<STYLEBUTTON layout="142,630,437,96" shape="roundRect(10)" defaultImg="#00ffffff" pressedImg="#80ff5a5f" text="í˜¸ìŠ¤íŠ¸ì— ëŒ€í•œ ìžì„¸í•œ ì •ë³´" fontSize="40" textAlign="center" textColor="#ff5a5f"
 						borderStyle="solid:2|#ff5a5f" />
 				</WINDOW>
 				<WINDOW id="detailImage" layout="0,0,720,480" defaultImg="#ffffff" align="relative" visible="invisible">
 					<GALLERY id="gallery" layout="0,0,720,480" defaultImg="#00c8c8c8" dataSource="data/galleryfourthdata.xml" dataList="/DATA/ITEM" imagePath="./@image" index="0" scaleType="fill"
 						onChange="device.toastPopup('Change')" />
-					<LABEL layout="0,382,226,66" text="£Ü259,960" defaultImg="#80000000" fontSize="40" minFontSize="-1" fontStyle="bold" textAlign="center" textColor="#ffffff" />
+					<LABEL layout="0,382,226,66" text="ï¿¦259,960" defaultImg="#80000000" fontSize="40" minFontSize="-1" fontStyle="bold" textAlign="center" textColor="#ffffff" />
 					<IMAGE layout="627,33,70,78" defaultImg="res/wishlist_heart_unselected.png" />
 				</WINDOW>
 			</WINDOW>
@@ -195,10 +195,10 @@
 					<IMAGE id="titleLogo" layout="36,14,65,68" defaultImg="res/ic_stat_notify.png" />
 				</BUTTON>
 				<LABEL id="titleLabel" layout="115,0,530,52" text="Luxury condo downtown-Spa/Pool-4pax" fontSize="30" minFontSize="-1" textAlign="vCenter" textColor="#000000" fontFace="res/circular_book.otf" />
-				<LABEL id="titleSubLabel" layout="115,52,530,40" text="½Ì°¡Æú(Singapore), ½Ì°¡Æ÷¸£" fontSize="25" minFontSize="-1" textAlign="vCenter" textColor="#565a5c" fontFace="res/circular_book.otf" />
+				<LABEL id="titleSubLabel" layout="115,52,530,40" text="ì‹±ê°€í´(Singapore), ì‹±ê°€í¬ë¥´" fontSize="25" minFontSize="-1" textAlign="vCenter" textColor="#565a5c" fontFace="res/circular_book.otf" />
 			</WINDOW>
 			<LABEL id="titleLine" layout="0,92,720,2" defaultImg="#00dfe0df" />
-			<BUTTON layout="0,1134,720,96" defaultImg="#90ff5a5f" text="¿¹¾à ¿äÃ»ÇÏ±â" fontSize="40" textAlign="center" textColor="#ffffff" />
+			<BUTTON layout="0,1134,720,96" defaultImg="#90ff5a5f" text="ì˜ˆì•½ ìš”ì²­í•˜ê¸°" fontSize="40" textAlign="center" textColor="#ffffff" />
 		</POPUP>
 	</UILAYOUT>
 </MOML> 
