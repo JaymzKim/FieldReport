@@ -1,7 +1,10 @@
-<?xml version="1.0" encoding="UTF-8"?>
-
-<MOML version="1.1.5">
-<FUNCTION id="onScroll(x,y)">
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+	Created by http://cafe.naver.com/citrineframework
+	You can freely copy, distribute, modify for commercial or non-commercial purposes.
+-->
+<MOML xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="http://www.applusform.com/xsd/moml_ui.xsd" version="1.1.1">
+	<FUNCTION id="onScroll(x,y)">
 		<CMD cmd="h = 371" />
 		<CMD condition="y lt h">
 			<CMD>
@@ -198,7 +201,4 @@
 			<BUTTON layout="0,1134,720,96" defaultImg="#90ff5a5f" text="예약 요청하기" fontSize="40" textAlign="center" textColor="#ffffff" />
 		</POPUP>
 	</UILAYOUT>
-</MOML>
-
-
-
+</MOML> 
