@@ -1,48 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
 
 <MOML xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="http://www.applusform.com/xsd/moml_ui.xsd" version="1.1.1">
-	<FUNCTION id="onScroll(x,y)">
-		<CMD cmd="h = 371" />
-		<CMD condition="y lt h">
-			<CMD>
-				<CMD cmd="alpha = math.max(0, math.min(y,h)/h) * 255" />
-				<CMD cmd="title.defaultImg=string.format('#%02xffffff', alpha)" />
-				<CMD cmd="titleLine.defaultImg=string.format('#%02xdfe0df', alpha)" />
-				<CMD cmd="titleLabel.textColor=string.format('#%02x000000', alpha)" />
-				<CMD cmd="titleSubLabel.textColor=string.format('#%02x565a5c', alpha)" />
-				<CMD cmd="titleBack.defaultImg='res/ic_ab_back_white.png'" />
-				<CMD cmd="titleLogo.defaultImg='res/ic_stat_notify.png'" />
-			</CMD>
-			<ELSECMD>
-				<CMD cmd="title.defaultImg='#ffffff'" />
-				<CMD cmd="titleLine.defaultImg='#dfe0df'" />
-				<CMD cmd="titleLabel.textColor='#000000'" />
-				<CMD cmd="titleSubLabel.textColor='#565a5c'" />
-				<CMD cmd="titleBack.defaultImg='res/sy_btn_back01.png'" />
-				<CMD cmd="titleLogo.defaultImg='res/ic_logo.png'" />
-			</ELSECMD>
-		</CMD>
-		<CMD cmd="function.backBgScroll(bg,y)" />
-		<CMD cmd="function.backBgScroll(bg1,y)" />
-		<CMD cmd="function.backBgScroll(bg2,y)" />
-	</FUNCTION>
 
-
-	<FUNCTION id="backBgScroll(bg,y)">
-		<CMD cmd="height = scrollView.height" />
-		<CMD cmd="top = bg.top" />
-		<CMD condition="y + height gt top">
-			<CMD condition="y lt top">
-				<CMD cmd="bg.backBg.top = -200+(y + height - top) / height * 200" />
-			</CMD>
-		</CMD>
-	</FUNCTION>
-
-	<FUNCTION id="aniTo">
-		<CMD cmd="animation.show('detailImage', 'fade', '', 500, '')" />
-		<CMD cmd="animation.flyIn('detailImage', 0, userVariable.detailY, 720,480, '', 500, '')" />
-	</FUNCTION>
-	<CMD cmd="function.aniTo" />
 	<DATASOURCE id="DetailBasic" src="{http://www.ebunyang.co.kr/AjaxContent/?sy_ajax_content=SYFieldReportAPPDetail&report_cd=1}"/>
 	<UILAYOUT portrait="720,1230" landscape="720,1230">
 		<POPUP layout="0,0,720,1230" defaultImg="#ffffff" showEffect="" hideEffect="" onClick="action:close()">
