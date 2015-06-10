@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<MOML version="1.1.5">
+<UI>
+    <UILAYOUT portrait="720,1230" landscape="720,1230">
+		<WINDOW defaultImg="#ffffff" align="flow:vertical">
+			<LABEL layout="0,30,300,30" text="FFFFFFgfdgfdFFFFFFFFFFFFFFFFFFFFFFFFFFF"/>
+		</WINDOW>
+    </UILAYOUT>
+</UI>
+</MOML>
+
+
+
