@@ -6,7 +6,7 @@
 
   <DATASOURCELIST>
 
-		<DATASOURCE id="detailBasic" src="{http://www.ebunyang.co.kr/AjaxContent/?sy_ajax_content=SYFieldReportAPPDetail&report_cd=1}"/>
+		<DATASOURCE id="detailBasic" src="{http://www.ebunyang.co.kr/AjaxContent/?sy_ajax_content=SYFieldReportAPPDetail}"/>
 
   </DATASOURCELIST>
 
