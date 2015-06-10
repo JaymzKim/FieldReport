@@ -1,8 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
 
 <MOML version="1.1.5">
-	<DATASOURCE id="DetailBasic" src="{http://www.ebunyang.co.kr/AjaxContent/?sy_ajax_content=SYFieldReportAPPDetail&report_cd=1}"/>
 <UI>
+	<DATASOURCE id="DetailBasic" src="{http://www.ebunyang.co.kr/AjaxContent/?sy_ajax_content=SYFieldReportAPPDetail&report_cd=1}"/>
     <UILAYOUT portrait="720,1230" landscape="720,1230">
 		<WINDOW defaultImg="#ffffff" align="flow:vertical|center">
 			<LABEL layout="720,auto" padding="20,40,20,40" textAlign="vCenter|hCenter" text="FFFFFFgfdgfdFFFFFFFFFFFFFFFFFFFFFFFFFFF"/>
