@@ -1,9 +1,11 @@
 <?xml version="1.0" encoding="UTF-8"?>
 
 <MOML version="1.1.5">
-<UILAYOUT portrait="300,300" landscape="300,300" defaultImg="#ffffff">
-	<LABEL id="testLabel" layout="0,0,300,30" text="gggggg" />
-	</UILAYOUT>
+<UI>
+    <UILAYOUT portrait="720,1230" landscape="720,1230">
+	<LABEL text="FFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFF">
+    </UILAYOUT>
+</UI>
 </MOML>
 
 
