@@ -2,9 +2,7 @@
 
 <MOML version="1.1.4">
 
-	<DATASOURCE id="DetailBasic" src="http://www.ebunyang.co.kr/AjaxContent/?sy_ajax_content=SYFieldReportAPPDetail&report_cd=1"/>
 	<UILAYOUT portrait="300,300" landscape="300,300" defaultImg="#ffffff">
-	<LABEL id="testLabel" layout="0,0,300,30" text="{xpath.evaluateEx('DetailBasic',
-	'/DATA/ITEMLIST/SYItem[0]/SYTitle/text()')}" />
+	<LABEL id="testLabel" layout="0,0,300,30" text="gggggg" />
 	</UILAYOUT>
 </MOML> 
