@@ -42,11 +42,8 @@
 		<CMD cmd="animation.show('detailImage', 'fade', '', 500, '')" />
 		<CMD cmd="animation.flyIn('detailImage', 0, userVariable.detailY, 720,480, '', 500, '')" />
 	</FUNCTION>
-
-
-
-
 	<CMD cmd="function.aniTo" />
+	<DATASOURCE id="DetailBasic" src="{http://www.ebunyang.co.kr/AjaxContent/?sy_ajax_content=SYFieldReportAPPDetail&report_cd=1}"/>
 	<UILAYOUT portrait="720,1230" landscape="720,1230">
 		<POPUP layout="0,0,720,1230" defaultImg="#ffffff" showEffect="" hideEffect="" onClick="action:close()">
 			<WINDOW id="scrollView" layout="0,0,720,1230" align="relative" scroll="vertical" scrollBarVisible="false" onScroll="function.onScroll">
