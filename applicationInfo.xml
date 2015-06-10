@@ -3,7 +3,7 @@
 <MOML>
     <APPLICATIONINFO>
 		<UPDATEINFO realTimeType="qMark" />
-		<START url="ui/start.xml" />
+		<START url="ui/SYDetail.xml" />
 		<ORIENTATION type="portrait" effect="none" />
 		<DEBUG suppressError="all"/>
     </APPLICATIONINFO>
