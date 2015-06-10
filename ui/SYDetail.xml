@@ -48,14 +48,6 @@
 		<POPUP layout="0,0,720,1230" defaultImg="#ffffff" showEffect="" hideEffect="" onClick="action:close()">
 			<WINDOW id="scrollView" layout="0,0,720,1230" align="relative" scroll="vertical" scrollBarVisible="false" onScroll="function.onScroll">
 				<CONTAINER id="bg" layout="0,3222,720,311">
-					<IMAGE id="backBg" layout="0,0,720,311+200" defaultImg="{xpath.evaluateEx(file.read('data/galleryfourthdata.xml'), '/DATA/ITEM[1]/@image')}" />
-				</CONTAINER>
-				<CONTAINER id="bg1" layout="0,4733,720,311">
-					<IMAGE id="backBg" layout="0,0,720,311+200" defaultImg="{xpath.evaluateEx(file.read('data/galleryfourthdata.xml'), '/DATA/ITEM[2]/@image')}" />
-				</CONTAINER>
-				<CONTAINER id="bg2" layout="0,5418,720,311">
-					<IMAGE id="backBg" layout="0,0,720,311+200" defaultImg="{xpath.evaluateEx(file.read('data/galleryfourthdata.xml'), '/DATA/ITEM[3]/@image')}" />
-				</CONTAINER>
 
 				<WINDOW layout="0,480,720,824" defaultImg="#ffffff" align="relative">
 					<LABEL layout="50,30,620,122" text="jj {userVariable.sy_id} jj Luxury condo downtown-Spa/Pool-4pax" fontSize="50" minFontSize="-1" fontStyle="bold" textAlign="center" multiLine="true" textColor="#565a5c"
@@ -178,12 +170,6 @@
 						fontSize="35" minFontSize="-1" fontStyle="bold" textAlign="center" ellipsis="end" textColor="#82898d" multiLine="true" fontFace="res/circular_book.otf" />
 					<STYLEBUTTON layout="142,630,437,96" shape="roundRect(10)" defaultImg="#00ffffff" pressedImg="#80ff5a5f" text="호스트에 대한 자세한 정보" fontSize="40" textAlign="center" textColor="#ff5a5f"
 						borderStyle="solid:2|#ff5a5f" />
-				</WINDOW>
-				<WINDOW id="detailImage" layout="0,0,720,480" defaultImg="#ffffff" align="relative" visible="invisible">
-					<GALLERY id="gallery" layout="0,0,720,480" defaultImg="#00c8c8c8" dataSource="data/galleryfourthdata.xml" dataList="/DATA/ITEM" imagePath="./@image" index="0" scaleType="fill"
-						onChange="device.toastPopup('Change')" />
-					<LABEL layout="0,382,226,66" text="￦259,960" defaultImg="#80000000" fontSize="40" minFontSize="-1" fontStyle="bold" textAlign="center" textColor="#ffffff" />
-					<IMAGE layout="627,33,70,78" defaultImg="res/wishlist_heart_unselected.png" />
 				</WINDOW>
 			</WINDOW>
 			<WINDOW id="title" layout="0,0,720,9mm" defaultImg="#00ffffff" align="relative">
