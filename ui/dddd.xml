@@ -3,14 +3,8 @@
 <MOML version="1.1.5">
 
 
-
-  <DATASOURCELIST>
-
 		<DATASOURCE id="detailBasic" src="{http://www.ebunyang.co.kr/AjaxContent/?sy_ajax_content=SYFieldReportAPPList}"/>
 
-  </DATASOURCELIST>
-
-	
 <UI>
     <UILAYOUT portrait="720,1230" landscape="720,1230">
 		<WINDOW defaultImg="#ffffff" align="flow:vertical|center">
