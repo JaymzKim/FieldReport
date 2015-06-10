@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 
 <MOML version="1.1.5">
-<DATASOURCE id="DetailBasic" src="{http://www.ebunyang.co.kr/AjaxContent/?sy_ajax_content=SYFieldReportAPPDetail&amp;report_cd={userVariable.sy_id}}"/>
+<DATASOURCE id="DetailBasic" src="{http://www.ebunyang.co.kr/AjaxContent/?sy_ajax_content=SYFieldReportAPPDetail&amp;report_cd=1}"/>
 <FUNCTION id="onScroll(x,y)">
 		<CMD cmd="h = 371" />
 		<CMD condition="y lt h">
