@@ -6,7 +6,6 @@
 					<WINDOW align="flow:vertical|center">
 						<LABEL layout="720,auto" padding="20,40,20,40" textAlign="vCenter|hCenter" text="fdgfdgdgdgdgdg" fontSize="30" minFontSize="-1" multiLine="true" textColor="#585858" defaultImg="#ffffff"/>
 					</WINDOW>
-                </WINDOW>
     </UILAYOUT>
 </UI>
 </MOML>
