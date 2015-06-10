@@ -47,7 +47,6 @@
 	<UILAYOUT portrait="720,1230" landscape="720,1230">
 		<POPUP layout="0,0,720,1230" defaultImg="#ffffff" showEffect="" hideEffect="" onClick="action:close()">
 			<WINDOW id="scrollView" layout="0,0,720,1230" align="relative" scroll="vertical" scrollBarVisible="false" onScroll="function.onScroll">
-				<CONTAINER id="bg" layout="0,3222,720,311">
 
 				<WINDOW layout="0,480,720,824" defaultImg="#ffffff" align="relative">
 					<LABEL layout="50,30,620,122" text="jj {userVariable.sy_id} jj Luxury condo downtown-Spa/Pool-4pax" fontSize="50" minFontSize="-1" fontStyle="bold" textAlign="center" multiLine="true" textColor="#565a5c"
