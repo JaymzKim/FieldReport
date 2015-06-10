@@ -3,8 +3,8 @@
 <MOML version="1.1.5">
 <UI>
     <UILAYOUT portrait="720,1230" landscape="720,1230">
-		<WINDOW defaultImg="#ffffff" align="flow:vertical">
-			<LABEL layout="0,30,300,30" text="FFFFFFgfdgfdFFFFFFFFFFFFFFFFFFFFFFFFFFF"/>
+		<WINDOW defaultImg="#ffffff" align="flow:vertical|center">
+			<LABEL layout="720,auto" padding="20,40,20,40" textAlign="vCenter|hCenter" text="FFFFFFgfdgfdFFFFFFFFFFFFFFFFFFFFFFFFFFF"/>
 		</WINDOW>
     </UILAYOUT>
 </UI>
