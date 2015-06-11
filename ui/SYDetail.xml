@@ -48,6 +48,15 @@
 		<POPUP layout="0,0,720,1230" defaultImg="#ffffff" showEffect="" hideEffect="" onClick="action:close()">
 			<WINDOW id="scrollView" layout="0,0,720,1230" align="relative" scroll="vertical" scrollBarVisible="false" onScroll="function.onScroll">
 
+				<WINDOW id="detailImage" layout="0,0,720,480" defaultImg="#ffffff" align="relative" visible="invisible">
+					<WINDOW align="relative">
+						<IMAGE layout="0,0,720,auto" align="linear:vertical" loadingEffect="fadeIn" loadingImg="#e5e5e5" defaultImg="{xpath.evaluateEx('DetailBasic',
+'/DATA/SYItem/SYImage/text()')}"/>
+						<LABEL layout="0,prev.height/2,720,60" align="linear:vertical" text="{xpath.evaluateEx('DetailBasic',
+'/DATA/SYItem/SYTitle/text()')}" fontSize="50" minFontSize="-1" fontStyle="bold" textColor="#ffffff" textAlign="center" textShadow="#90000000"/>
+					</WINDOW>
+				</WINDOW>
+
 				<WINDOW defaultImg="#ffffff" align="flow:vertical|center">
 					<LABEL layout="720,auto" padding="20,40,20,40" text="{xpath.evaluateEx('DetailBasic',
 '/DATA/SYItem/SYMemo/text()')}" fontSize="30" minFontSize="-1" textAlign="center" multiLine="true" textColor="#565a5c"/>
@@ -147,14 +156,6 @@
 						fontSize="35" minFontSize="-1" fontStyle="bold" textAlign="center" ellipsis="end" textColor="#82898d" multiLine="true" fontFace="res/circular_book.otf" />
 					<STYLEBUTTON layout="142,630,437,96" shape="roundRect(10)" defaultImg="#00ffffff" pressedImg="#80ff5a5f" text="호스트에 대한 자세한 정보" fontSize="40" textAlign="center" textColor="#ff5a5f"
 						borderStyle="solid:2|#ff5a5f" />
-				</WINDOW>
-				<WINDOW id="detailImage" layout="0,0,720,480" defaultImg="#ffffff" align="relative" visible="invisible">
-					<WINDOW align="relative">
-						<IMAGE layout="0,0,720,auto" align="linear:vertical" loadingEffect="fadeIn" loadingImg="#e5e5e5" defaultImg="{xpath.evaluateEx('DetailBasic',
-'/DATA/SYItem/SYImage/text()')}"/>
-						<LABEL layout="0,prev.height/2,720,60" align="linear:vertical" text="{xpath.evaluateEx('DetailBasic',
-'/DATA/SYItem/SYTitle/text()')}" fontSize="50" minFontSize="-1" fontStyle="bold" textColor="#ffffff" textAlign="center" textShadow="#90000000"/>
-					</WINDOW>
 				</WINDOW>
 			</WINDOW>
 			<WINDOW id="SYTitle" layout="0,0,720,9mm" defaultImg="#00ffffff" align="relative">
