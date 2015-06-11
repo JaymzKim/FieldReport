@@ -68,8 +68,8 @@
 
 				<WINDOW defaultImg="#ffffff" align="flow:vertical|center">
 					<WINDOW align="relative">
-						<LABEL layout="0,0,120,auto" align="linear:vertical" text="{xpath.evaluateEx('DetailBasic','/DATA/SYComplexInfo/SYRow[0]/SYTitle/text()')')}" fontSize="30" minFontSize="-1" multiLine="true" textColor="#707070" defaultImg="#ffffff"/>
-						<LABEL layout="120,0,600,auto" align="linear:vertical" text="{xpath.evaluateEx('DetailBasic','/DATA/SYComplexInfo/SYRow[0]/SYContent/text()')}" fontSize="30" minFontSize="-1" multiLine="true" textColor="#333333" defaultImg="#ffffff"/>
+						<LABEL layout="0,0,120,auto" align="linear:vertical" text="{xpath.evaluateEx('DetailBasic','/DATA/SYComplexInfo/SYRow[1]/SYTitle/text()')')}" fontSize="30" minFontSize="-1" multiLine="true" textColor="#707070" defaultImg="#ffffff"/>
+						<LABEL layout="120,0,600,auto" align="linear:vertical" text="{xpath.evaluateEx('DetailBasic','/DATA/SYComplexInfo/SYRow[1]/SYContent/text()')}" fontSize="30" minFontSize="-1" multiLine="true" textColor="#333333" defaultImg="#ffffff"/>
 					</WINDOW>
 				</WINDOW>
 
