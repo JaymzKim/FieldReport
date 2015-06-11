@@ -50,9 +50,7 @@
 
 
 
-	<DATASOURCELIST>
-		<DATASOURCE id="DetailBasic" src="http://www.ebunyang.co.kr/AjaxContent/SYFieldReportAPPDetail.php?report_cd={userVariable.sy_id}"/>
-	</DATASOURCELIST>
+	<DATASOURCE id="DetailBasic" src="http://www.ebunyang.co.kr/AjaxContent/SYFieldReportAPPDetail.php?report_cd={userVariable.sy_id}"/>
 	<UILAYOUT portrait="720,1230" landscape="720,1230">
 		<POPUP layout="0,0,720,1230" defaultImg="#ffffff" showEffect="" hideEffect="" onClick="action:close()">
 			<WINDOW id="scrollView" layout="0,0,720,1230" align="linear:vertical" scroll="vertical" scrollBarVisible="false" onScroll="function.onScroll">
@@ -69,11 +67,11 @@
 				</WINDOW>
 
 				<WINDOW defaultImg="#ffffff" align="flow:vertical|center">
-					<LIST id="SYComplexInfo" layout="720,300" dataSource="DetailBasic" dataList="/DATA/SYComplexInfo" divider="none" defaultImg="#dddddd">
+					<LIST id="SYComplexInfo" layout="720,300" dataSource="DetailBasic" dataList="/DATA/SYComplexInfo/SYRow" divider="none" defaultImg="#dddddd">
 						<LISTLAYOUT layout="720,30" defaultImg="#000000">
 							<WINDOW align="flow:vertical|center">
-								<LABEL layout="120,auto" text="{xpath.evaluate('./SYRow/SYTitle/text()')}" fontSize="30" minFontSize="-1" multiLine="true" textColor="#707070" defaultImg="#ffffff"/>
-								<LABEL layout="600,auto" text="{xpath.evaluate('./SYRow/SYContent/text()')}" fontSize="30" minFontSize="-1" multiLine="true" textColor="#333333" defaultImg="#ffffff"/>
+								<LABEL layout="120,auto" text="{xpath.evaluate('./SYTitle/text()')}" fontSize="30" minFontSize="-1" multiLine="true" textColor="#707070" defaultImg="#ffffff"/>
+								<LABEL layout="600,auto" text="{xpath.evaluate('./SYContent/text()')}" fontSize="30" minFontSize="-1" multiLine="true" textColor="#333333" defaultImg="#ffffff"/>
 							</WINDOW>
 						</LISTLAYOUT>
 					</LIST>
