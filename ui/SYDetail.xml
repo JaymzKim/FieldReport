@@ -5,7 +5,7 @@
 -->
 <MOML xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="http://www.applusform.com/xsd/moml_ui.xsd" version="1.1.1">
 	<FUNCTION id="onScroll(x,y)">
-		<CMD cmd="h = 300" />
+		<CMD cmd="h = 280" />
 		<CMD condition="y lt h">
 			<CMD>
 				<CMD cmd="alpha = math.max(0, math.min(y,h)/h) * 255" />
