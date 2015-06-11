@@ -63,7 +63,7 @@
 					<LABEL layout="720,auto" padding="20,40,20,40" text="{xpath.evaluateEx('DetailBasic','/DATA/SYItem/SYMemo/text()')}" fontSize="30" minFontSize="-1" textAlign="center" multiLine="true" textColor="#565a5c"/>
 				</WINDOW>
 
-				<LIST id="SYComplexInfo" align="linear:vertical" dataSource="DetailBasic" dataList="/DATA/SYComplexInfo/SYRow" divider="none">
+				<LIST id="SYComplexInfo" align="flow:vertical" dataSource="DetailBasic" dataList="/DATA/SYComplexInfo/SYRow" divider="none">
 					<LISTLAYOUT align="linear:vertical">
 						<LABEL layout="120,auto" text="{xpath.evaluate('./SYTitle/text()')}" fontSize="30" minFontSize="-1" multiLine="true" textColor="#707070" defaultImg="#ffffff"/>
 						<LABEL layout="600,auto" text="{xpath.evaluate('./SYContent/text()')}" fontSize="30" minFontSize="-1" multiLine="true" textColor="#333333" defaultImg="#ffffff"/>
