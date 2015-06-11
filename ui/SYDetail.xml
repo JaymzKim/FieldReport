@@ -63,7 +63,7 @@
 
 				<WINDOW layout="0,480,720,824" defaultImg="#ffffff" align="relative">
 					<LABEL layout="50,30,620,122" text="{xpath.evaluateEx('DetailBasic',
-'/DATA/ITEMLIST/SYItem/SYTitle/text()')}" fontSize="50" minFontSize="-1" fontStyle="bold" textAlign="center" multiLine="true" textColor="#565a5c"
+'/DATA/SYItem/SYTitle/text()')}" fontSize="50" minFontSize="-1" fontStyle="bold" textAlign="center" multiLine="true" textColor="#565a5c"
 						fontFace="res/circular_book.otf" />
 					<WINDOW layout="0,160,720,40" align="linear:horizontal|center">
 						<IMAGE layout="30,30" defaultImg="res/small_star_selected.png" />
@@ -195,8 +195,8 @@
 				<BUTTON layout="0,0,105,9mm" defaultImg="#00ffffff" onClick="container.close()">
 					<IMAGE id="titleBack" layout="0,0,7mm,7mm" defaultImg="res/sy_btn_back01.png" />
 				</BUTTON>
-				<LABEL id="titleLabel" layout="115,0,530,52" text="{xpath.evaluateEx('DetailBasic',
-'/DATA/ITEMLIST/SYItem/SYTitle/text()')}" fontSize="40" fontStyle="bold" minFontSize="-1" textAlign="vCenter" textColor="#000000"/>
+				<LABEL id="titleLabel" layout="115,0,530,9mm" text="{xpath.evaluateEx('DetailBasic',
+'/DATA/SYItem/SYTitle/text()')}" fontSize="40" fontStyle="bold" minFontSize="-1" textAlign="vCenter|hCenter" textColor="#000000"/>
 			</WINDOW>
 			<LABEL id="titleLine" layout="0,92,720,2" defaultImg="#00dfe0df" />
 			<BUTTON layout="0,1134,720,96" defaultImg="#90ff5a5f" text="예약 요청하기" fontSize="40" textAlign="center" textColor="#ffffff" />
