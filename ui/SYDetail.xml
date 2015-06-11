@@ -98,18 +98,20 @@
 				</WINDOW>
 
 				<WINDOW defaultImg="#ffffff" align="flow:vertical|center">
-					<LABEL layout="720,auto" padding="20,40,20,40" text="{xpath.evaluateEx('DetailBasic','/DATA/SYComplexInfo/SYRow[1]/SYContent/text()')}" fontSize="30" minFontSize="-1" textAlign="center" multiLine="true" textColor="#565a5c"/>
+					<AGATEWEBVIEW id="webView" layout="720,300" homePage="http://ebunyang.co.kr/m/" src="{caller.homePage}" controls="none" supportZoom="false">
+                    <LINKMAP>
+                        <LINK url="*" delay="1"/>
+                    </LINKMAP>
+                </AGATEWEBVIEW>
 				</WINDOW>
 
 			</WINDOW>
 			<WINDOW id="SYTitle" layout="0,0,720,9mm" defaultImg="#00ffffff" align="relative">
-				<LABEL id="TitleLabel" layout="0,0,720,9mm" align="linear:vertical" text="{xpath.evaluateEx('DetailBasic',
-'/DATA/SYItem/SYTitle/text()')}" fontSize="40" fontStyle="bold" minFontSize="-1" textAlign="vCenter|hCenter" textColor="#00000000"/>
+				<LABEL id="TitleLabel" layout="0,0,720,9mm" align="linear:vertical" text="{xpath.evaluateEx('DetailBasic','/DATA/SYItem/SYTitle/text()')}" fontSize="40" fontStyle="bold" minFontSize="-1" textAlign="vCenter|hCenter" textColor="#00000000"/>
 				<BUTTON id="TitleBack" layout="0,0,9mm,9mm" align="linear:vertical" onClick="container.close()" defaultImg="../img/sy_btn_back_white01.png"/>
 			</WINDOW>
 			<LABEL id="titleLine" layout="0,9mm,720,2" defaultImg="#00f5f5f5" />
-			<BUTTON layout="0,1134,720,96" defaultImg="#9037629f" text="분양 문의하기" fontSize="40" textAlign="center" textColor="#ffffff" onClick="function.SYTel(''+xpath.evaluateEx('DetailBasic',
-'/DATA/SYItem/SYContact/text()')+'')"/>
+			<BUTTON layout="0,1134,720,96" defaultImg="#9037629f" text="분양 문의하기" fontSize="40" textAlign="center" textColor="#ffffff" onClick="function.SYTel(''+xpath.evaluateEx('DetailBasic','/DATA/SYItem/SYContact/text()')+'')"/>
 		</POPUP>
 	</UILAYOUT>
 </MOML> 
