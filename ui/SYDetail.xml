@@ -9,18 +9,18 @@
 		<CMD condition="y lt h">
 			<CMD>
 				<CMD cmd="alpha = math.max(0, math.min(y,h)/h) * 255" />
-				<CMD cmd="title.defaultImg=string.format('#%02xffffff', alpha)" />
+				<CMD cmd="SYTitle.defaultImg=string.format('#%02xffffff', alpha)" />
 				<CMD cmd="titleLine.defaultImg=string.format('#%02xdfe0df', alpha)" />
-				<CMD cmd="titleLabel.textColor=string.format('#%02x000000', alpha)" />
+				<CMD cmd="TitleLabel.textColor=string.format('#%02x000000', alpha)" />
 				<CMD cmd="titleSubLabel.textColor=string.format('#%02x565a5c', alpha)" />
-				<CMD cmd="titleBack.defaultImg='../img/sy_btn_back_white01.png'" />
+				<CMD cmd="TitleBack.defaultImg='../img/sy_btn_back_white01.png'" />
 			</CMD>
 			<ELSECMD>
-				<CMD cmd="title.defaultImg='#ffffff'" />
+				<CMD cmd="SYTitle.defaultImg='#ffffff'" />
 				<CMD cmd="titleLine.defaultImg='#dfe0df'" />
-				<CMD cmd="titleLabel.textColor='#000000'" />
+				<CMD cmd="TitleLabel.textColor='#000000'" />
 				<CMD cmd="titleSubLabel.textColor='#565a5c'" />
-				<CMD cmd="titleBack.defaultImg='../img/sy_btn_back_blue01.png'" />
+				<CMD cmd="TitleBack.defaultImg='../img/sy_btn_back_blue01.png'" />
 			</ELSECMD>
 		</CMD>
 		<CMD cmd="function.backBgScroll(bg,y)" />
@@ -191,10 +191,10 @@
 					</WINDOW>
 				</WINDOW>
 			</WINDOW>
-			<WINDOW id="title" layout="0,0,720,9mm" defaultImg="#00ffffff" align="relative">
-				<LABEL id="titleLabel" layout="0,0,720,9mm" align="linear:vertical" text="{xpath.evaluateEx('DetailBasic',
+			<WINDOW id="SYTitle" layout="0,0,720,9mm" defaultImg="#00ffffff" align="relative">
+				<LABEL id="TitleLabel" layout="0,0,720,9mm" align="linear:vertical" text="{xpath.evaluateEx('DetailBasic',
 '/DATA/SYItem/SYTitle/text()')}" fontSize="40" fontStyle="bold" minFontSize="-1" textAlign="vCenter|hCenter" textColor="#000000"/>
-				<BUTTON layout="0,0,9mm,9mm" align="linear:vertical" onClick="container.close()" defaultImg="../img/sy_btn_back_blue01.png"/>
+				<BUTTON id="TitleBack" layout="0,0,9mm,9mm" align="linear:vertical" onClick="container.close()" defaultImg="../img/sy_btn_back_blue01.png"/>
 			</WINDOW>
 			<LABEL id="titleLine" layout="0,9mm,720,2" defaultImg="#00dfe0df" />
 			<BUTTON layout="0,1134,720,96" defaultImg="#90ff5a5f" text="예약 요청하기" fontSize="40" textAlign="center" textColor="#ffffff" />
