@@ -66,22 +66,22 @@
 					<LABEL layout="720,auto" padding="20,40,20,40" text="{xpath.evaluateEx('DetailBasic','/DATA/SYItem/SYMemo/text()')}" fontSize="30" minFontSize="-1" textAlign="center" multiLine="true" textColor="#565a5c"/>
 				</WINDOW>
 
-				<WINDOW layout="720,auto" padding="20,40,20,40" defaultImg="#f5f5f5" align="flow:vertical|center">
+				<WINDOW layout="720,auto" padding="20,20,20,40" defaultImg="#f5f5f5" align="flow:vertical|center">
 					<WINDOW align="relative">
-						<LABEL layout="20,10,140,auto" align="linear:vertical" text="{xpath.evaluateEx('DetailBasic','/DATA/SYComplexInfo/SYRow[1]/SYTitle/text()')')}" fontSize="30" minFontSize="-1" multiLine="true" textColor="#707070"/>
-						<LABEL layout="160,10,500,auto" align="linear:vertical" text="{xpath.evaluateEx('DetailBasic','/DATA/SYComplexInfo/SYRow[1]/SYContent/text()')}" fontSize="30" minFontSize="-1" multiLine="true" textColor="#333333"/>
+						<LABEL layout="20,20,140,auto" align="linear:vertical" text="{xpath.evaluateEx('DetailBasic','/DATA/SYComplexInfo/SYRow[1]/SYTitle/text()')')}" fontSize="30" minFontSize="-1" multiLine="true" textColor="#707070"/>
+						<LABEL layout="160,20,500,auto" align="linear:vertical" text="{xpath.evaluateEx('DetailBasic','/DATA/SYComplexInfo/SYRow[1]/SYContent/text()')}" fontSize="30" minFontSize="-1" multiLine="true" textColor="#333333"/>
 					</WINDOW>
 					<WINDOW align="relative">
-						<LABEL layout="20,10,140,auto" align="linear:vertical" text="{xpath.evaluateEx('DetailBasic','/DATA/SYComplexInfo/SYRow[2]/SYTitle/text()')')}" fontSize="30" minFontSize="-1" multiLine="true" textColor="#707070"/>
-						<LABEL layout="160,10,500,auto" align="linear:vertical" text="{xpath.evaluateEx('DetailBasic','/DATA/SYComplexInfo/SYRow[2]/SYContent/text()')}" fontSize="30" minFontSize="-1" multiLine="true" textColor="#333333"/>
+						<LABEL layout="20,20,140,auto" align="linear:vertical" text="{xpath.evaluateEx('DetailBasic','/DATA/SYComplexInfo/SYRow[2]/SYTitle/text()')')}" fontSize="30" minFontSize="-1" multiLine="true" textColor="#707070"/>
+						<LABEL layout="160,20,500,auto" align="linear:vertical" text="{xpath.evaluateEx('DetailBasic','/DATA/SYComplexInfo/SYRow[2]/SYContent/text()')}" fontSize="30" minFontSize="-1" multiLine="true" textColor="#333333"/>
 					</WINDOW>
 					<WINDOW align="relative">
-						<LABEL layout="20,10,140,auto" align="linear:vertical" text="{xpath.evaluateEx('DetailBasic','/DATA/SYComplexInfo/SYRow[3]/SYTitle/text()')')}" fontSize="30" minFontSize="-1" multiLine="true" textColor="#707070"/>
-						<LABEL layout="160,10,500,auto" align="linear:vertical" text="{xpath.evaluateEx('DetailBasic','/DATA/SYComplexInfo/SYRow[3]/SYContent/text()')}" fontSize="30" minFontSize="-1" multiLine="true" textColor="#333333"/>
+						<LABEL layout="20,20,140,auto" align="linear:vertical" text="{xpath.evaluateEx('DetailBasic','/DATA/SYComplexInfo/SYRow[3]/SYTitle/text()')')}" fontSize="30" minFontSize="-1" multiLine="true" textColor="#707070"/>
+						<LABEL layout="160,20,500,auto" align="linear:vertical" text="{xpath.evaluateEx('DetailBasic','/DATA/SYComplexInfo/SYRow[3]/SYContent/text()')}" fontSize="30" minFontSize="-1" multiLine="true" textColor="#333333"/>
 					</WINDOW>
 					<WINDOW align="relative">
-						<LABEL layout="20,10,140,auto" align="linear:vertical" text="{xpath.evaluateEx('DetailBasic','/DATA/SYComplexInfo/SYRow[4]/SYTitle/text()')')}" fontSize="30" minFontSize="-1" multiLine="true" textColor="#707070"/>
-						<LABEL layout="160,10,500,auto" align="linear:vertical" text="{xpath.evaluateEx('DetailBasic','/DATA/SYComplexInfo/SYRow[4]/SYContent/text()')}" fontSize="30" minFontSize="-1" multiLine="true" textColor="#333333"/>
+						<LABEL layout="20,20,140,auto" align="linear:vertical" text="{xpath.evaluateEx('DetailBasic','/DATA/SYComplexInfo/SYRow[4]/SYTitle/text()')')}" fontSize="30" minFontSize="-1" multiLine="true" textColor="#707070"/>
+						<LABEL layout="160,20,500,auto" align="linear:vertical" text="{xpath.evaluateEx('DetailBasic','/DATA/SYComplexInfo/SYRow[4]/SYContent/text()')}" fontSize="30" minFontSize="-1" multiLine="true" textColor="#333333"/>
 					</WINDOW>
 				</WINDOW>
 
