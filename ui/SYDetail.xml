@@ -192,11 +192,9 @@
 				</WINDOW>
 			</WINDOW>
 			<WINDOW id="title" layout="0,0,720,9mm" defaultImg="#00ffffff" align="relative">
-				<LABEL id="titleLabel" layout="7mm,0,720,9mm" align="linear:vertical" text="{xpath.evaluateEx('DetailBasic',
+				<LABEL id="titleLabel" layout="0,0,720,9mm" align="linear:vertical" text="{xpath.evaluateEx('DetailBasic',
 '/DATA/SYItem/SYTitle/text()')}" fontSize="40" fontStyle="bold" minFontSize="-1" textAlign="vCenter|hCenter" textColor="#000000"/>
-				<BUTTON layout="0,0,9mm,9mm" align="linear:vertical" onClick="container.close()">
-					<IMAGE id="titleBack" layout="0,0,7mm,7mm" align="relative" defaultImg="../img/sy_btn_back_blue01.png" />
-				</BUTTON>
+				<BUTTON layout="0,0,9mm,9mm" align="linear:vertical" onClick="container.close()" defaultImg="../img/sy_btn_back_blue01.png"/>
 			</WINDOW>
 			<LABEL id="titleLine" layout="0,9mm,720,2" defaultImg="#00dfe0df" />
 			<BUTTON layout="0,1134,720,96" defaultImg="#90ff5a5f" text="예약 요청하기" fontSize="40" textAlign="center" textColor="#ffffff" />
