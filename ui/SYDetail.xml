@@ -195,7 +195,7 @@
 				<LABEL id="titleLabel" layout="7mm,0,720,9mm" align="linear:vertical" text="{xpath.evaluateEx('DetailBasic',
 '/DATA/SYItem/SYTitle/text()')}" fontSize="40" fontStyle="bold" minFontSize="-1" textAlign="vCenter|hCenter" textColor="#000000"/>
 				<BUTTON layout="0,0,9mm,9mm" align="linear:vertical" defaultImg="#00000000" onClick="container.close()">
-					<IMAGE id="titleBack" layout="0,0,7mm,7mm" align="linear:vertical" defaultImg="../img/sy_btn_back_blue01.png" />
+					<IMAGE id="titleBack" layout="0,0,7mm,7mm" align="linear:vertical" defaultImg="res/sy_btn_back01.png" />
 				</BUTTON>
 			</WINDOW>
 			<LABEL id="titleLine" layout="0,9mm,720,2" defaultImg="#00dfe0df" />
