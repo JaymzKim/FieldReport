@@ -13,14 +13,14 @@
 				<CMD cmd="titleLine.defaultImg=string.format('#%02xdfe0df', alpha)" />
 				<CMD cmd="titleLabel.textColor=string.format('#%02x000000', alpha)" />
 				<CMD cmd="titleSubLabel.textColor=string.format('#%02x565a5c', alpha)" />
-				<CMD cmd="titleBack.defaultImg='../img/sy_btn_back_white01.png'" />
+				<CMD cmd="titleBack.defaultImg='res/sy_btn_back01.png'" />
 			</CMD>
 			<ELSECMD>
 				<CMD cmd="title.defaultImg='#ffffff'" />
 				<CMD cmd="titleLine.defaultImg='#dfe0df'" />
 				<CMD cmd="titleLabel.textColor='#000000'" />
 				<CMD cmd="titleSubLabel.textColor='#565a5c'" />
-				<CMD cmd="titleBack.defaultImg='../img/sy_btn_back_blue01.png'" />
+				<CMD cmd="titleBack.defaultImg='res/sy_btn_back01.png'" />
 			</ELSECMD>
 		</CMD>
 		<CMD cmd="function.backBgScroll(bg,y)" />
