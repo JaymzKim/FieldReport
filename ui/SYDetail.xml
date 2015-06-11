@@ -5,7 +5,7 @@
 -->
 <MOML xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="http://www.applusform.com/xsd/moml_ui.xsd" version="1.1.1">
 	<FUNCTION id="onScroll(x,y)">
-		<CMD cmd="h = 371" />
+		<CMD cmd="h = 300" />
 		<CMD condition="y lt h">
 			<CMD>
 				<CMD cmd="alpha = math.max(0, math.min(y,h)/h) * 255" />
@@ -42,8 +42,8 @@
 	</FUNCTION>
 
 	<FUNCTION id="aniTo">
-		<CMD cmd="animation.show('detailImage', 'fade', '', 500, '')" />
-		<CMD cmd="animation.flyIn('detailImage', 0, userVariable.detailY, 720,480, '', 500, '')" />
+		<CMD cmd="animation.show('detailImage', 'fade', '', 400, '')" />
+		<CMD cmd="animation.flyIn('detailImage', 0, userVariable.detailY, 720,480, '', 400, '')" />
 	</FUNCTION>
 
 	<CMD cmd="function.aniTo" />
