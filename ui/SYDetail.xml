@@ -67,7 +67,7 @@
 				</WINDOW>
 
 				<WINDOW defaultImg="#ffffff" align="flow:vertical|center">
-					<WINDOW align="relative">
+					<WINDOW align="relative" padding="10 0">
 						<LABEL layout="20,0,140,auto" align="linear:vertical" text="{xpath.evaluateEx('DetailBasic','/DATA/SYComplexInfo/SYRow[1]/SYTitle/text()')')}" fontSize="30" minFontSize="-1" multiLine="true" textColor="#707070" defaultImg="#ffffff"/>
 						<LABEL layout="160,0,560,auto" align="linear:vertical" text="{xpath.evaluateEx('DetailBasic','/DATA/SYComplexInfo/SYRow[1]/SYContent/text()')}" fontSize="30" minFontSize="-1" multiLine="true" textColor="#333333" defaultImg="#ffffff"/>
 					</WINDOW>
