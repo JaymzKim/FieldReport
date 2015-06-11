@@ -47,20 +47,10 @@
 	<UILAYOUT portrait="720,1230" landscape="720,1230">
 		<POPUP layout="0,0,720,1230" defaultImg="#ffffff" showEffect="" hideEffect="" onClick="action:close()">
 			<WINDOW id="scrollView" layout="0,0,720,1230" align="relative" scroll="vertical" scrollBarVisible="false" onScroll="function.onScroll">
-				<CONTAINER id="bg" layout="0,3222,720,311">
-					<IMAGE id="backBg" layout="0,0,720,311+200" defaultImg="{xpath.evaluateEx(file.read('data/galleryfourthdata.xml'), '/DATA/ITEM[1]/@image')}" />
-				</CONTAINER>
-				<CONTAINER id="bg1" layout="0,4733,720,311">
-					<IMAGE id="backBg" layout="0,0,720,311+200" defaultImg="{xpath.evaluateEx(file.read('data/galleryfourthdata.xml'), '/DATA/ITEM[2]/@image')}" />
-				</CONTAINER>
-				<CONTAINER id="bg2" layout="0,5418,720,311">
-					<IMAGE id="backBg" layout="0,0,720,311+200" defaultImg="{xpath.evaluateEx(file.read('data/galleryfourthdata.xml'), '/DATA/ITEM[3]/@image')}" />
-				</CONTAINER>
 
 				<WINDOW layout="0,480,720,824" defaultImg="#ffffff" align="relative">
 					<LABEL layout="50,30,620,122" text="{xpath.evaluateEx('DetailBasic',
-'/DATA/SYItem/SYTitle/text()')}" fontSize="50" minFontSize="-1" fontStyle="bold" textAlign="center" multiLine="true" textColor="#565a5c"
-						fontFace="res/circular_book.otf" />
+'/DATA/SYItem/SYMemo/text()')}" fontSize="30" minFontSize="-1" fontStyle="bold" textAlign="center" multiLine="true" textColor="#565a5c"/>
 					<WINDOW layout="0,160,720,40" align="linear:horizontal|center">
 						<IMAGE layout="30,30" defaultImg="res/small_star_selected.png" />
 						<IMAGE layout="30,30" defaultImg="res/small_star_selected.png" margin="5,0,0,0" />
