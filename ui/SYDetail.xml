@@ -48,7 +48,7 @@
 		<POPUP layout="0,0,720,1230" defaultImg="#ffffff" showEffect="" hideEffect="" onClick="action:close()">
 			<WINDOW id="scrollView" layout="0,0,720,1230" align="linear:vertical" scroll="vertical" scrollBarVisible="false" onScroll="function.onScroll">
 
-				<WINDOW id="detailImage" layout="0,0,720,480" defaultImg="#ffffff" align="relative" visible="invisible">
+				<WINDOW id="detailImage" defaultImg="#ffffff" align="relative" visible="invisible">
 					<WINDOW align="relative">
 						<IMAGE layout="0,0,720,auto" align="linear:vertical" loadingEffect="fadeIn" loadingImg="#e5e5e5" defaultImg="{xpath.evaluateEx('DetailBasic',
 '/DATA/SYItem/SYImage/text()')}"/>
