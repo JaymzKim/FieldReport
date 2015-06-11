@@ -13,7 +13,7 @@
 				<CMD cmd="titleLine.defaultImg=string.format('#%02xdfe0df', alpha)" />
 				<CMD cmd="titleLabel.textColor=string.format('#%02x000000', alpha)" />
 				<CMD cmd="titleSubLabel.textColor=string.format('#%02x565a5c', alpha)" />
-				<CMD cmd="titleBack.defaultImg='res/ic_ab_back_white.png'" />
+				<CMD cmd="titleBack.defaultImg='res/sy_btn_back01.png'" />
 				<CMD cmd="titleLogo.defaultImg='res/ic_stat_notify.png'" />
 			</CMD>
 			<ELSECMD>
@@ -21,7 +21,7 @@
 				<CMD cmd="titleLine.defaultImg='#dfe0df'" />
 				<CMD cmd="titleLabel.textColor='#000000'" />
 				<CMD cmd="titleSubLabel.textColor='#565a5c'" />
-				<CMD cmd="titleBack.defaultImg='res/ic_ab_back_gray.png'" />
+				<CMD cmd="titleBack.defaultImg='res/sy_btn_back01.png'" />
 				<CMD cmd="titleLogo.defaultImg='res/ic_logo.png'" />
 			</ELSECMD>
 		</CMD>
@@ -191,13 +191,12 @@
 					<IMAGE layout="627,33,70,78" defaultImg="res/wishlist_heart_unselected.png" />
 				</WINDOW>
 			</WINDOW>
-			<WINDOW id="title" layout="0,0,720,92" defaultImg="#00ffffff" align="relative">
-				<BUTTON layout="0,0,105,92" defaultImg="#00ffffff" onClick="container.close()">
-					<IMAGE id="titleBack" layout="0,33,35,35" defaultImg="res/ic_ab_back_white.png" />
-					<IMAGE id="titleLogo" layout="36,14,65,68" defaultImg="res/ic_stat_notify.png" />
+			<WINDOW id="title" layout="0,0,720,9mm" defaultImg="#00ffffff" align="relative">
+				<BUTTON layout="0,0,105,9mm" defaultImg="#00ffffff" onClick="container.close()">
+					<IMAGE id="titleBack" layout="0,0,7mm,7mm" defaultImg="res/sy_btn_back01.png" />
 				</BUTTON>
-				<LABEL id="titleLabel" layout="115,0,530,52" text="Luxury condo downtown-Spa/Pool-4pax" fontSize="30" minFontSize="-1" textAlign="vCenter" textColor="#000000" fontFace="res/circular_book.otf" />
-				<LABEL id="titleSubLabel" layout="115,52,530,40" text="싱가폴(Singapore), 싱가포르" fontSize="25" minFontSize="-1" textAlign="vCenter" textColor="#565a5c" fontFace="res/circular_book.otf" />
+				<LABEL id="titleLabel" layout="115,0,530,52" text="{xpath.evaluateEx('DetailBasic',
+'/DATA/ITEMLIST/SYItem/SYTitle/text()')}" fontSize="40" fontStyle="bold" minFontSize="-1" textAlign="vCenter" textColor="#000000"/>
 			</WINDOW>
 			<LABEL id="titleLine" layout="0,92,720,2" defaultImg="#00dfe0df" />
 			<BUTTON layout="0,1134,720,96" defaultImg="#90ff5a5f" text="예약 요청하기" fontSize="40" textAlign="center" textColor="#ffffff" />
