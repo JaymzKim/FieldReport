@@ -165,8 +165,7 @@
 				<BUTTON id="TitleBack" layout="0,0,9mm,9mm" align="linear:vertical" onClick="container.close()" defaultImg="../img/sy_btn_back_white01.png"/>
 			</WINDOW>
 			<LABEL id="titleLine" layout="0,9mm,720,2" defaultImg="#00f5f5f5" />
-			<BUTTON layout="0,1134,720,96" defaultImg="#9037629f" text="분양 문의하기" fontSize="40" textAlign="center" textColor="#ffffff" onClick="function.SYTel('{xpath.evaluateEx('DetailBasic',
-'/DATA/SYItem/SYContact/text()')}')"/>
+			<BUTTON layout="0,1134,720,96" defaultImg="#9037629f" text="분양 문의하기" fontSize="40" textAlign="center" textColor="#ffffff" onClick="function.SYTel('010-2939-2628')"/>
 		</POPUP>
 	</UILAYOUT>
 </MOML> 
