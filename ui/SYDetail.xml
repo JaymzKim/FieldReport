@@ -63,101 +63,13 @@
 					<LABEL layout="720,auto" padding="20,40,20,40" text="{xpath.evaluateEx('DetailBasic','/DATA/SYItem/SYMemo/text()')}" fontSize="30" minFontSize="-1" textAlign="center" multiLine="true" textColor="#565a5c"/>
 				</WINDOW>
 
-				<WINDOW layout="0,1304,720,778" defaultImg="#f5f6f5" align="relative">
-					<LABEL layout="0,53,720,40" text="후기 3개" fontSize="30" minFontSize="-1" fontStyle="bold" textAlign="center" textColor="#565a5c" />
-					<STYLEBUTTON layout="282,128,163,163" shape="circle" defaultImg="res/original1.jpg" />
-					<LABEL layout="0,326,720,40" text="Hasham" fontSize="30" minFontSize="-1" fontStyle="bold" textAlign="center" textColor="#565a5c" fontFace="res/circular_book.otf" />
-					<LABEL layout="0,366,720,40" text="2013년 9월" fontSize="30" minFontSize="-1" fontStyle="bold" textAlign="center" textColor="#82898d" fontFace="res/circular_book.otf" />
-					<LABEL layout="0,433,720,186" text="Frank's apartment is very conveniently located, suitably bright, and minimally yet thoughtfully laid out. it has everything one person would need for a cosy couple of..."
-						fontSize="30" minFontSize="-1" fontStyle="bold" textAlign="center" textColor="#82898d" fontFace="res/circular_book.otf" />
-					<STYLEBUTTON layout="255,644,209,96" shape="roundRect(10)" defaultImg="#00ffffff" pressedImg="#80ff5a5f" text="모두 보기" fontSize="40" textAlign="center" textColor="#ff5a5f" borderStyle="solid:2|#ff5a5f" />
-				</WINDOW>
-				<LABEL layout="0,2082,720,520" defaultImg="res/map.png" />
-				<WINDOW layout="0,2602,720,620" defaultImg="#f5f6f5" align="relative">
-					<LABEL layout="0,49,720,40" text="설명" fontSize="30" minFontSize="-1" fontStyle="bold" textAlign="center" textColor="#565a5c" />
-					<LABEL layout="30,121,660,347"
-						text="{'- Located in the center of Berlin Mitte\n- quiet building, 1-bedroom apartment\n- simply furnished\n- WLAN, washing MAchine are included\n- No Kitchen\n\n If you have an question, fell free to contact me.\nI would be glad to see you soon!\nBest regards, Frank'}"
-						fontSize="30" minFontSize="-1" fontStyle="bold" textAlign="vCenter" textColor="#82898d" fontFace="res/circular_book.otf" />
-					<STYLEBUTTON layout="242,508,239,96" shape="roundRect(10)" defaultImg="#00ffffff" pressedImg="#80ff5a5f" text="더 읽어보기" fontSize="40" textAlign="center" textColor="#ff5a5f"
-						borderStyle="solid:2|#ff5a5f" />
-				</WINDOW>
+				<LIST id="SYComplexInfo" align="linear:vertical" dataSource="DetailBasic" dataList="/DATA/SYComplexInfo/SYRow" divider="none">
+					<LISTLAYOUT align="linear:vertical">
+						<LABEL layout="120,auto" text="{xpath.evaluate('./SYTitle/text()')}" fontSize="30" minFontSize="-1" multiLine="true" textColor="#707070" defaultImg="#ffffff"/>
+						<LABEL layout="600,auto" text="{xpath.evaluate('./SYContent/text()')}" fontSize="30" minFontSize="-1" multiLine="true" textColor="#333333" defaultImg="#ffffff"/>
+					</LISTLAYOUT>
+				</LIST>
 
-				<WINDOW layout="0,3533,720,1230" defaultImg="#f5f6f5" align="linear:vertical|subCenter">
-					<LABEL layout="720,94" text="숙소" fontSize="30" minFontSize="-1" fontStyle="bold" textAlign="center" textColor="#565a5c" margin="0,39,0,0" />
-					<LABEL layout="660,2" defaultImg="#dfe0df" />
-					<WINDOW layout="660,94" align="linear:horizontal">
-						<LABEL layout="544,94" text="숙소 유형" fontSize="30" minFontSize="-1" textAlign="vCenter" textColor="#82898d" />
-						<LABEL layout="116,94" text="집 전체" fontSize="30" minFontSize="-1" textAlign="vCenter|right" textColor="#565a5c" />
-					</WINDOW>
-					<LABEL layout="660,2" defaultImg="#dfe0df" />
-					<WINDOW layout="660,94" align="linear:horizontal">
-						<LABEL layout="544,94" text="수용 인원" fontSize="30" minFontSize="-1" textAlign="vCenter" textColor="#82898d" />
-						<LABEL layout="116,94" text="1" fontSize="30" minFontSize="-1" textAlign="vCenter|right" textColor="#565a5c" />
-					</WINDOW>
-					<LABEL layout="660,2" defaultImg="#dfe0df" />
-					<WINDOW layout="660,94" align="linear:horizontal">
-						<LABEL layout="544,94" text="침실" fontSize="30" minFontSize="-1" textAlign="vCenter" textColor="#82898d" />
-						<LABEL layout="116,94" text="1" fontSize="30" minFontSize="-1" textAlign="vCenter|right" textColor="#565a5c" />
-					</WINDOW>
-					<LABEL layout="660,2" defaultImg="#dfe0df" />
-					<WINDOW layout="660,94" align="linear:horizontal">
-						<LABEL layout="544,94" text="욕실" fontSize="30" minFontSize="-1" textAlign="vCenter" textColor="#82898d" />
-						<LABEL layout="116,94" text="1" fontSize="30" minFontSize="-1" textAlign="vCenter|right" textColor="#565a5c" />
-					</WINDOW>
-					<LABEL layout="660,2" defaultImg="#dfe0df" />
-					<WINDOW layout="660,94" align="linear:horizontal">
-						<LABEL layout="544,94" text="침대" fontSize="30" minFontSize="-1" textAlign="vCenter" textColor="#82898d" />
-						<LABEL layout="116,94" text="1" fontSize="30" minFontSize="-1" textAlign="vCenter|right" textColor="#565a5c" />
-					</WINDOW>
-					<LABEL layout="660,2" defaultImg="#dfe0df" />
-					<LABEL layout="720,94" text="상세 정보" fontSize="30" minFontSize="-1" textAlign="center" textColor="#565a5c" margin="0,39,0,0" />
-					<LABEL layout="660,2" defaultImg="#dfe0df" />
-					<WINDOW layout="660,94" align="linear:horizontal">
-						<LABEL layout="544,94" text="최소 숙박 가능 일수" fontSize="30" minFontSize="-1" textAlign="vCenter" textColor="#82898d" />
-						<LABEL layout="116,94" text="8박" fontSize="30" minFontSize="-1" textAlign="vCenter|right" textColor="#565a5c" />
-					</WINDOW>
-					<LABEL layout="660,2" defaultImg="#dfe0df" />
-					<WINDOW layout="660,94" align="linear:horizontal">
-						<LABEL layout="544,94" text="환불 정책" fontSize="30" minFontSize="-1" textAlign="vCenter" textColor="#82898d" />
-						<LABEL layout="116,94" text="엄격" fontSize="30" minFontSize="-1" textAlign="vCenter|right" textColor="#ff5a5f" />
-					</WINDOW>
-					<LABEL layout="660,2" defaultImg="#dfe0df" />
-					<WINDOW layout="660,94" align="linear:horizontal">
-						<LABEL layout="544,94" text="숙소 이용 규칙" fontSize="30" minFontSize="-1" textAlign="vCenter" textColor="#82898d" />
-						<LABEL layout="116,94" text="보기" fontSize="30" minFontSize="-1" textAlign="vCenter|right" textColor="#ff5a5f" />
-					</WINDOW>
-					<LABEL layout="660,2" defaultImg="#dfe0df" />
-					<WINDOW layout="660,94" align="linear:horizontal">
-						<LABEL layout="544,94" text="예약 가능여부" fontSize="30" minFontSize="-1" textAlign="vCenter" textColor="#82898d" />
-						<LABEL layout="116,94" text="달력 보기" fontSize="30" minFontSize="-1" textAlign="vCenter|right" textColor="#ff5a5f" />
-					</WINDOW>
-					<LABEL layout="660,2" defaultImg="#dfe0df" />
-					<WINDOW layout="660,94" align="linear:horizontal">
-						<LABEL layout="544,94" text="상세 가격" fontSize="30" minFontSize="-1" textAlign="vCenter" textColor="#82898d" />
-						<LABEL layout="116,94" text="보기" fontSize="30" minFontSize="-1" textAlign="vCenter|right" textColor="#ff5a5f" />
-					</WINDOW>
-				</WINDOW>
-				<WINDOW layout="0,5044,720,377" defaultImg="#f5f6f5" align="relative">
-					<LABEL layout="0,39,720,94" text="편의 시설" fontSize="30" minFontSize="-1" fontStyle="bold" textAlign="center" textColor="#565a5c" />
-					<WINDOW layout="30,133,660,94" align="linear:horizontal|hJustify">
-						<IMAGE layout="50,50" defaultImg="res/icon_am_tv.png" />
-						<IMAGE layout="50,50" defaultImg="res/icon_am_cabletv.png" />
-						<IMAGE layout="50,50" defaultImg="res/icon_am_dryer.png" />
-						<IMAGE layout="50,50" defaultImg="res/icon_am_wifi.png" />
-						<IMAGE layout="50,50" defaultImg="res/icon_am_ac.png" />
-					</WINDOW>
-				</WINDOW>
-
-				<WINDOW layout="0,5732,720,895" defaultImg="#f5f6f5" align="relative">
-					<LABEL layout="0,39,720,94" text="Lan 소개" fontSize="30" minFontSize="-1" fontStyle="bold" textAlign="center" textColor="#565a5c" />
-					<STYLEBUTTON layout="280,128,163,163" shape="circle" defaultImg="res/original.jpg" borderStyle="solid:2|#ffffff" />
-					<LABEL layout="0,310,720,40" text="Saint-Lazare, Quebec, Canada" fontSize="30" minFontSize="-1" fontStyle="bold" textAlign="center" textColor="#565a5c" fontFace="res/circular_book.otf" />
-					<LABEL layout="30,393,660,220"
-						text="{'artist and filmmaker couple, we like to garden, cook, make art, Michelle is also an Rn. Two grown daughters out of house. 3cats. We enjoy improving our historic house, barns and grounds.'}"
-						fontSize="35" minFontSize="-1" fontStyle="bold" textAlign="center" ellipsis="end" textColor="#82898d" multiLine="true" fontFace="res/circular_book.otf" />
-					<STYLEBUTTON layout="142,630,437,96" shape="roundRect(10)" defaultImg="#00ffffff" pressedImg="#80ff5a5f" text="호스트에 대한 자세한 정보" fontSize="40" textAlign="center" textColor="#ff5a5f"
-						borderStyle="solid:2|#ff5a5f" />
-				</WINDOW>
 			</WINDOW>
 			<WINDOW id="SYTitle" layout="0,0,720,9mm" defaultImg="#00ffffff" align="relative">
 				<LABEL id="TitleLabel" layout="0,0,720,9mm" align="linear:vertical" text="{xpath.evaluateEx('DetailBasic',
