@@ -95,10 +95,6 @@
 						<LABEL layout="20,20,140,auto" align="linear:vertical" text="{xpath.evaluateEx('DetailBasic','/DATA/SYComplexInfo/SYRow[7]/SYTitle/text()')')}" fontSize="30" minFontSize="-1" multiLine="true" textColor="#707070"/>
 						<LABEL layout="160,20,500,auto" align="linear:vertical" text="{xpath.evaluateEx('DetailBasic','/DATA/SYComplexInfo/SYRow[7]/SYContent/text()')}" fontSize="30" minFontSize="-1" multiLine="true" textColor="#333333"/>
 					</WINDOW>
-					<WINDOW align="relative">
-						<LABEL layout="20,20,140,auto" align="linear:vertical" text="{xpath.evaluateEx('DetailBasic','/DATA/SYComplexInfo/SYRow[8]/SYTitle/text()')')}" fontSize="30" minFontSize="-1" multiLine="true" textColor="#707070"/>
-						<LABEL layout="160,20,500,auto" align="linear:vertical" text="{xpath.evaluateEx('DetailBasic','/DATA/SYComplexInfo/SYRow[8]/SYContent/text()')}" fontSize="30" minFontSize="-1" multiLine="true" textColor="#333333"/>
-					</WINDOW>
 				</WINDOW>
 
 				<WINDOW defaultImg="#ffffff" align="flow:vertical|center">
