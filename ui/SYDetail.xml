@@ -185,10 +185,12 @@
 						borderStyle="solid:2|#ff5a5f" />
 				</WINDOW>
 				<WINDOW id="detailImage" layout="0,0,720,480" defaultImg="#ffffff" align="relative" visible="invisible">
-					<GALLERY id="gallery" layout="0,0,720,480" defaultImg="#00c8c8c8" dataSource="data/galleryfourthdata.xml" dataList="/DATA/ITEM" imagePath="./@image" index="0" scaleType="fill"
-						onChange="device.toastPopup('Change')" />
-					<LABEL layout="0,382,226,66" text="￦259,960" defaultImg="#80000000" fontSize="40" minFontSize="-1" fontStyle="bold" textAlign="center" textColor="#ffffff" />
-					<IMAGE layout="627,33,70,78" defaultImg="res/wishlist_heart_unselected.png" />
+					<WINDOW align="relative">
+						<IMAGE layout="0,0,720,auto" align="linear:vertical" loadingEffect="fadeIn" loadingImg="#e5e5e5" defaultImg="{xpath.evaluateEx('DetailBasic',
+'/DATA/SYItem/SYImage/text()')}"/>
+						<LABEL layout="0,prev.height/2,720,60" align="linear:vertical" text="{xpath.evaluateEx('DetailBasic',
+'/DATA/SYItem/SYTitle/text()')}" fontSize="50" minFontSize="-1" fontStyle="bold" textColor="#ffffff" textAlign="center" textShadow="#90000000"/>
+					</WINDOW>
 				</WINDOW>
 			</WINDOW>
 			<WINDOW id="title" layout="0,0,720,9mm" defaultImg="#00ffffff" align="relative">
