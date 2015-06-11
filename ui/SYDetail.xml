@@ -48,9 +48,9 @@
 		<POPUP layout="0,0,720,1230" defaultImg="#ffffff" showEffect="" hideEffect="" onClick="action:close()">
 			<WINDOW id="scrollView" layout="0,0,720,1230" align="relative" scroll="vertical" scrollBarVisible="false" onScroll="function.onScroll">
 
-				<WINDOW layout="0,480,720,824" defaultImg="#ffffff" align="relative">
-					<LABEL layout="50,30,620,122" text="{xpath.evaluateEx('DetailBasic',
-'/DATA/SYItem/SYMemo/text()')}" fontSize="30" minFontSize="-1" fontStyle="bold" textAlign="center" multiLine="true" textColor="#565a5c"/>
+				<WINDOW layout="0,480,720,824" defaultImg="#ffffff" align="flow:vertical|center">
+					<LABEL layout="720,auto" text="{xpath.evaluateEx('DetailBasic',
+'/DATA/SYItem/SYMemo/text()')}" fontSize="30" minFontSize="-1" textAlign="center" multiLine="true" textColor="#565a5c"/>
 					<WINDOW layout="0,160,720,40" align="linear:horizontal|center">
 						<IMAGE layout="30,30" defaultImg="res/small_star_selected.png" />
 						<IMAGE layout="30,30" defaultImg="res/small_star_selected.png" margin="5,0,0,0" />
