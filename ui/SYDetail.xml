@@ -14,7 +14,6 @@
 				<CMD cmd="titleLabel.textColor=string.format('#%02x000000', alpha)" />
 				<CMD cmd="titleSubLabel.textColor=string.format('#%02x565a5c', alpha)" />
 				<CMD cmd="titleBack.defaultImg='../img/sy_btn_back_white01.png'" />
-				<CMD cmd="titleLogo.defaultImg='res/ic_stat_notify.png'" />
 			</CMD>
 			<ELSECMD>
 				<CMD cmd="title.defaultImg='#ffffff'" />
@@ -22,7 +21,6 @@
 				<CMD cmd="titleLabel.textColor='#000000'" />
 				<CMD cmd="titleSubLabel.textColor='#565a5c'" />
 				<CMD cmd="titleBack.defaultImg='../img/sy_btn_back_blue01.png'" />
-				<CMD cmd="titleLogo.defaultImg='res/ic_logo.png'" />
 			</ELSECMD>
 		</CMD>
 		<CMD cmd="function.backBgScroll(bg,y)" />
@@ -196,7 +194,7 @@
 			<WINDOW id="title" layout="0,0,720,9mm" defaultImg="#00ffffff" align="relative">
 				<LABEL id="titleLabel" layout="7mm,0,720,9mm" align="linear:vertical" text="{xpath.evaluateEx('DetailBasic',
 '/DATA/SYItem/SYTitle/text()')}" fontSize="40" fontStyle="bold" minFontSize="-1" textAlign="vCenter|hCenter" textColor="#000000"/>
-				<BUTTON layout="0,0,720,9mm" align="linear:vertical" defaultImg="#00ffffff" onClick="container.close()">
+				<BUTTON layout="0,0,720,9mm" align="linear:vertical" defaultImg="#00000000" onClick="container.close()">
 					<IMAGE id="titleBack" layout="0,0,7mm,7mm" align="linear:vertical" defaultImg="../img/sy_btn_back_blue01.png" />
 				</BUTTON>
 			</WINDOW>
