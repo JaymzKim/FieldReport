@@ -10,11 +10,13 @@
 			<CMD>
 				<CMD cmd="alpha = math.max(0, math.min(y,h)/h) * 255" />
 				<CMD cmd="SYTitle.defaultImg=string.format('#%02xffffff', alpha)" />
+				<CMD cmd="titleLine.defaultImg=string.format('#%02xe5e5e5', alpha)" />
 				<CMD cmd="TitleLabel.textColor=string.format('#%02x000000', alpha)" />
 				<CMD cmd="TitleBack.defaultImg='../img/sy_btn_back_white01.png'" />
 			</CMD>
 			<ELSECMD>
 				<CMD cmd="SYTitle.defaultImg='#ffffff'" />
+				<CMD cmd="titleLine.defaultImg='#e5e5e5'" />
 				<CMD cmd="TitleLabel.textColor='#000000'" />
 				<CMD cmd="TitleBack.defaultImg='../img/sy_btn_back_blue01.png'" />
 			</ELSECMD>
@@ -187,11 +189,12 @@
 					</WINDOW>
 				</WINDOW>
 			</WINDOW>
-			<WINDOW id="SYTitle" layout="0,0,720,9mm" defaultImg="#00ffffff" align="relative" shadow="mirror">
+			<WINDOW id="SYTitle" layout="0,0,720,9mm" defaultImg="#00ffffff" align="relative">
 				<LABEL id="TitleLabel" layout="0,0,720,9mm" align="linear:vertical" text="{xpath.evaluateEx('DetailBasic',
 '/DATA/SYItem/SYTitle/text()')}" fontSize="40" fontStyle="bold" minFontSize="-1" textAlign="vCenter|hCenter" textColor="#00000000"/>
 				<BUTTON id="TitleBack" layout="0,0,9mm,9mm" align="linear:vertical" onClick="container.close()" defaultImg="../img/sy_btn_back_white01.png"/>
 			</WINDOW>
+			<LABEL id="titleLine" layout="0,9mm,720,2" defaultImg="#00e5e5e5" />
 			<BUTTON layout="0,1134,720,96" defaultImg="#90ff5a5f" text="예약 요청하기" fontSize="40" textAlign="center" textColor="#ffffff" />
 		</POPUP>
 	</UILAYOUT>
