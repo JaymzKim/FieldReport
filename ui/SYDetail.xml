@@ -42,6 +42,10 @@
 		<CMD cmd="animation.flyIn('detailImage', 0, userVariable.detailY, 720,480, '', 400, '')" />
 	</FUNCTION>
 
+	<FUNCTION id="SYTel(sy_tel)">
+		<CMD cmd="appLauncher.openUri('tel:'+sy_tel+'', '')" />
+	</FUNCTION>
+
 	<CMD cmd="function.aniTo" />
 	<DATASOURCE id="DetailBasic" src="http://www.ebunyang.co.kr/AjaxContent/SYFieldReportAPPDetail.php?report_cd={userVariable.sy_id}"/>
 	<UILAYOUT portrait="720,1230" landscape="720,1230">
@@ -50,16 +54,13 @@
 
 				<WINDOW id="detailImage" defaultImg="#ffffff" align="relative" visible="invisible">
 					<WINDOW align="relative">
-						<IMAGE layout="0,0,720,auto" align="linear:vertical" loadingEffect="fadeIn" loadingImg="#e5e5e5" defaultImg="{xpath.evaluateEx('DetailBasic',
-'/DATA/SYItem/SYImage/text()')}"/>
-						<LABEL layout="0,prev.height/2,720,60" align="linear:vertical" text="{xpath.evaluateEx('DetailBasic',
-'/DATA/SYItem/SYTitle/text()')}" fontSize="50" minFontSize="-1" fontStyle="bold" textColor="#ffffff" textAlign="center" textShadow="#90000000"/>
+						<IMAGE layout="0,0,720,auto" align="linear:vertical" loadingEffect="fadeIn" loadingImg="#e5e5e5" defaultImg="{xpath.evaluateEx('DetailBasic','/DATA/SYItem/SYImage/text()')}"/>
+						<LABEL layout="0,prev.height/2,720,60" align="linear:vertical" text="{xpath.evaluateEx('DetailBasic','/DATA/SYItem/SYTitle/text()')}" fontSize="50" minFontSize="-1" fontStyle="bold" textColor="#ffffff" textAlign="center" textShadow="#90000000"/>
 					</WINDOW>
 				</WINDOW>
 
 				<WINDOW defaultImg="#ffffff" align="flow:vertical|center">
-					<LABEL layout="720,auto" padding="20,40,20,40" text="{xpath.evaluateEx('DetailBasic',
-'/DATA/SYItem/SYMemo/text()')}" fontSize="30" minFontSize="-1" textAlign="center" multiLine="true" textColor="#565a5c"/>
+					<LABEL layout="720,auto" padding="20,40,20,40" text="{xpath.evaluateEx('DetailBasic','/DATA/SYItem/SYMemo/text()')}" fontSize="30" minFontSize="-1" textAlign="center" multiLine="true" textColor="#565a5c"/>
 				</WINDOW>
 
 				<WINDOW layout="0,1304,720,778" defaultImg="#f5f6f5" align="relative">
@@ -164,7 +165,8 @@
 				<BUTTON id="TitleBack" layout="0,0,9mm,9mm" align="linear:vertical" onClick="container.close()" defaultImg="../img/sy_btn_back_white01.png"/>
 			</WINDOW>
 			<LABEL id="titleLine" layout="0,9mm,720,2" defaultImg="#00f5f5f5" />
-			<BUTTON layout="0,1134,720,96" defaultImg="#90ff5a5f" text="예약 요청하기" fontSize="40" textAlign="center" textColor="#ffffff" />
+			<BUTTON layout="0,1134,720,96" defaultImg="#9037629f" text="분양 문의하기" fontSize="40" textAlign="center" textColor="#ffffff" onClick="function.SYTel('{xpath.evaluateEx('DetailBasic',
+'/DATA/SYItem/SYContact/text()')}')"/>
 		</POPUP>
 	</UILAYOUT>
 </MOML> 
