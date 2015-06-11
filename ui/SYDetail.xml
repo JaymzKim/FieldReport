@@ -48,31 +48,9 @@
 		<POPUP layout="0,0,720,1230" defaultImg="#ffffff" showEffect="" hideEffect="" onClick="action:close()">
 			<WINDOW id="scrollView" layout="0,0,720,1230" align="relative" scroll="vertical" scrollBarVisible="false" onScroll="function.onScroll">
 
-				<WINDOW layout="0,480,720,824" defaultImg="#ffffff" align="flow:vertical|center">
-					<LABEL layout="720,auto" text="{xpath.evaluateEx('DetailBasic',
+				<WINDOW defaultImg="#ffffff" align="flow:vertical|center">
+					<LABEL layout="720,auto" padding="20,40,20,40" text="{xpath.evaluateEx('DetailBasic',
 '/DATA/SYItem/SYMemo/text()')}" fontSize="30" minFontSize="-1" textAlign="center" multiLine="true" textColor="#565a5c"/>
-					<WINDOW layout="0,160,720,40" align="linear:horizontal|center">
-						<IMAGE layout="30,30" defaultImg="res/small_star_selected.png" />
-						<IMAGE layout="30,30" defaultImg="res/small_star_selected.png" margin="5,0,0,0" />
-						<IMAGE layout="30,30" defaultImg="res/small_star_selected.png" margin="5,0,0,0" />
-						<IMAGE layout="30,30" defaultImg="res/small_star_selected.png" margin="5,0,0,0" />
-						<IMAGE layout="30,30" defaultImg="res/small_star_selected.png" margin="5,0,0,0" />
-						<LABEL layout="60,27" text="3" fontSize="25" minFontSize="-1" fontStyle="bold" textAlign="center" textColor="#82898d" margin="5,0,0,0" />
-					</WINDOW>
-					<STYLEBUTTON layout="280,219,163,163" shape="circle" defaultImg="res/original.jpg" borderStyle="solid:2|#ffffff" />
-					<LABEL layout="0,407,720,96" text="{'집 전체' +'\n'+ 'Frank님이 호스팅 하셨습니다'}" fontSize="35" minFontSize="-1" textAlign="center" textColor="#82898d" fontFace="res/circular_book.otf" />
-					<LABEL layout="30,523,660,2" defaultImg="#dfe0df" />
-
-					<WINDOW layout="0,525,720,150" align="relative">
-						<IMAGE layout="100,20,84,84" defaultImg="res/icon_p3_guests.png" />
-						<LABEL layout="65,107,154,38" text="게스트 1명" fontSize="30" minFontSize="-1" fontStyle="bold" textAlign="center" textColor="#82898d" />
-						<IMAGE layout="318,20,84,84" defaultImg="res/icon_p3_rooms.png" margin="130,0,0,0" />
-						<LABEL layout="306,107,113,38" text="방 1명" fontSize="30" minFontSize="-1" fontStyle="bold" textAlign="center" textColor="#82898d" />
-						<IMAGE layout="540,20,84,84" defaultImg="res/icon_p3_beds.png" margin="130,0,0,0" />
-						<LABEL layout="522,107,123,38" text="침대 1명" fontSize="30" minFontSize="-1" fontStyle="bold" textAlign="center" textColor="#82898d" />
-					</WINDOW>
-					<STYLEBUTTON layout="181,698,360,96" shape="roundRect(10)" defaultImg="#00ffffff" pressedImg="#80ff5a5f" text="호스트에게 연락하기" fontSize="40" textAlign="center" textColor="#ff5a5f"
-						borderStyle="solid:2|#ff5a5f" />
 				</WINDOW>
 
 				<WINDOW layout="0,1304,720,778" defaultImg="#f5f6f5" align="relative">
