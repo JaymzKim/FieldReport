@@ -51,7 +51,7 @@
 
 
 	<DATASOURCELIST>
-		<DATASOURCE id="DetailBasic" src="{http://www.ebunyang.co.kr/AjaxContent/SYFieldReportAPPDetail.php?report_cd=1}"/>
+		<DATASOURCE id="DetailBasic" src="http://www.ebunyang.co.kr/AjaxContent/SYFieldReportAPPDetail.php?report_cd=1"/>
 	</DATASOURCELIST>
 	<UILAYOUT portrait="720,1230" landscape="720,1230">
 		<POPUP layout="0,0,720,1230" defaultImg="#ffffff" showEffect="" hideEffect="" onClick="action:close()">
