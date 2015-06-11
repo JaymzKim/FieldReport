@@ -194,10 +194,10 @@
 				</WINDOW>
 			</WINDOW>
 			<WINDOW id="title" layout="0,0,720,9mm" defaultImg="#00ffffff" align="relative">
-				<BUTTON layout="0,0,105,9mm" defaultImg="#00ffffff" onClick="container.close()">
+				<BUTTON layout="0,0,7mm,9mm" defaultImg="#00ffffff" onClick="container.close()">
 					<IMAGE id="titleBack" layout="0,0,7mm,7mm" defaultImg="res/sy_btn_back01.png" />
 				</BUTTON>
-				<LABEL id="titleLabel" layout="115,0,530,9mm" text="{xpath.evaluateEx('DetailBasic',
+				<LABEL id="titleLabel" layout="7mm,0,720,9mm" text="{xpath.evaluateEx('DetailBasic',
 '/DATA/SYItem/SYTitle/text()')}" fontSize="40" fontStyle="bold" minFontSize="-1" textAlign="vCenter|hCenter" textColor="#000000"/>
 			</WINDOW>
 			<LABEL id="titleLine" layout="0,92,720,2" defaultImg="#00dfe0df" />
