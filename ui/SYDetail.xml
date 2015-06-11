@@ -74,9 +74,11 @@
 
 				<WINDOW defaultImg="#ffffff" align="flow:vertical|center">
 					<LIST id="SYComplexInfo" layout="0,0,720,1230" align="linear:vertical" dataSource="DetailBasic" dataList="/DATA/SYComplexInfo/SYRow" divider="none" defaultImg="#dddddd">
-						<LISTLAYOUT align="linear:vertical" defaultImg="#000000">
-							<LABEL layout="120,auto" text="{xpath.evaluate('./SYTitle/text()')}" fontSize="30" minFontSize="-1" multiLine="true" textColor="#707070" defaultImg="#ffffff"/>
-							<LABEL layout="600,auto" text="{xpath.evaluate('./SYContent/text()')}" fontSize="30" minFontSize="-1" multiLine="true" textColor="#333333" defaultImg="#ffffff"/>
+						<LISTLAYOUT align="flow:vertical" defaultImg="#000000">
+							<WINDOW align="flow:vertical|center">
+								<LABEL layout="120,auto" text="{xpath.evaluate('./SYTitle/text()')}" fontSize="30" minFontSize="-1" multiLine="true" textColor="#707070" defaultImg="#ffffff"/>
+								<LABEL layout="600,auto" text="{xpath.evaluate('./SYContent/text()')}" fontSize="30" minFontSize="-1" multiLine="true" textColor="#333333" defaultImg="#ffffff"/>
+							</WINDOW>
 						</LISTLAYOUT>
 					</LIST>
 				</WINDOW>
