@@ -66,7 +66,7 @@
 					<LABEL layout="720,auto" padding="20,40,20,40" text="{xpath.evaluateEx('DetailBasic','/DATA/SYItem/SYMemo/text()')}" fontSize="30" minFontSize="-1" textAlign="center" multiLine="true" textColor="#565a5c"/>
 				</WINDOW>
 
-				<WINDOW defaultImg="#e5e5e5" align="flow:vertical|center">
+				<WINDOW layout="720,auto" defaultImg="#e5e5e5" align="flow:vertical|center">
 					<WINDOW align="relative">
 						<LABEL layout="40,10,140,auto" align="linear:vertical" text="{xpath.evaluateEx('DetailBasic','/DATA/SYComplexInfo/SYRow[1]/SYTitle/text()')')}" fontSize="30" minFontSize="-1" multiLine="true" textColor="#707070" defaultImg="#ffffff"/>
 						<LABEL layout="180,10,500,auto" align="linear:vertical" text="{xpath.evaluateEx('DetailBasic','/DATA/SYComplexInfo/SYRow[1]/SYContent/text()')}" fontSize="30" minFontSize="-1" multiLine="true" textColor="#333333" defaultImg="#ffffff"/>
