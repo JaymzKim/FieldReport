@@ -187,7 +187,7 @@
 					</WINDOW>
 				</WINDOW>
 			</WINDOW>
-			<WINDOW id="SYTitle" layout="0,0,720,9mm" defaultImg="#00ffffff" align="relative" shadow="normal">
+			<WINDOW id="SYTitle" layout="0,0,720,9mm" defaultImg="#00ffffff" align="relative" shadow="mirror">
 				<LABEL id="TitleLabel" layout="0,0,720,9mm" align="linear:vertical" text="{xpath.evaluateEx('DetailBasic',
 '/DATA/SYItem/SYTitle/text()')}" fontSize="40" fontStyle="bold" minFontSize="-1" textAlign="vCenter|hCenter" textColor="#00000000"/>
 				<BUTTON id="TitleBack" layout="0,0,9mm,9mm" align="linear:vertical" onClick="container.close()" defaultImg="../img/sy_btn_back_white01.png"/>
