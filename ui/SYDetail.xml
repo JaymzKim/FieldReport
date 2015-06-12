@@ -66,7 +66,12 @@
 					<LABEL layout="720,auto" padding="20,40,20,40" text="{xpath.evaluateEx('DetailBasic','/DATA/SYItem/SYMemo/text()')}" fontSize="30" minFontSize="-1" textAlign="center" multiLine="true" textColor="#565a5c"/>
 				</WINDOW>
 
-				<WINDOW layout="720,auto" padding="20,10,20,30" defaultImg="#f5f5f5" align="flow:vertical|center">
+
+				<WINDOW layout="720,auto" defaultImg="#ffffff" align="flow:vertical|center">
+					<GALLERY id="gallery" layout="720,480" defaultImg="#00c8c8c8" dataSource="http://www.ebunyang.co.kr/AjaxContent/SYFieldReportAPPPhoto.php?report_cd={userVariable.sy_id}" dataList="/DATA/ITEM" imagePath="./@image" index="0" scaleType="fill" onChange="device.toastPopup('Change')" />
+				</WINDOW>
+
+				<WINDOW layout="720,auto" margin="0 20 0 20" padding="20,10,20,30" defaultImg="#f5f5f5" align="flow:vertical|center">
 					<WINDOW align="relative">
 						<LABEL layout="20,20,140,auto" align="linear:vertical" text="{xpath.evaluateEx('DetailBasic','/DATA/SYComplexInfo/SYRow[1]/SYTitle/text()')')}" fontSize="30" minFontSize="-1" multiLine="true" textColor="#707070"/>
 						<LABEL layout="160,20,500,auto" align="linear:vertical" text="{xpath.evaluateEx('DetailBasic','/DATA/SYComplexInfo/SYRow[1]/SYContent/text()')}" fontSize="30" minFontSize="-1" multiLine="true" textColor="#333333"/>
@@ -95,11 +100,6 @@
 						<LABEL layout="20,20,140,auto" align="linear:vertical" text="{xpath.evaluateEx('DetailBasic','/DATA/SYComplexInfo/SYRow[7]/SYTitle/text()')')}" fontSize="30" minFontSize="-1" multiLine="true" textColor="#707070"/>
 						<LABEL layout="160,20,500,auto" align="linear:vertical" text="{xpath.evaluateEx('DetailBasic','/DATA/SYComplexInfo/SYRow[7]/SYContent/text()')}" fontSize="30" minFontSize="-1" multiLine="true" textColor="#333333"/>
 					</WINDOW>
-				</WINDOW>
-
-
-				<WINDOW layout="720,auto" defaultImg="#ffffff" align="flow:vertical|center">
-					<GALLERY id="gallery" layout="720,480" defaultImg="#00c8c8c8" dataSource="http://www.ebunyang.co.kr/AjaxContent/SYFieldReportAPPPhoto.php?report_cd={userVariable.sy_id}" dataList="/DATA/ITEM" imagePath="./@image" index="0" scaleType="fill" onChange="device.toastPopup('Change')" />
 				</WINDOW>
 
 
