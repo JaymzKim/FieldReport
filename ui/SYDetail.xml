@@ -98,8 +98,8 @@
 				</WINDOW>
 
 
-				<WINDOW defaultImg="#ffffff" align="flow:vertical|center">
-					<GALLERY id="gallery" layout="720,480" margin="0 20px 0 20px" defaultImg="#00c8c8c8" dataSource="http://www.ebunyang.co.kr/AjaxContent/SYFieldReportAPPPhoto.php?report_cd={userVariable.sy_id}" dataList="/DATA/ITEM" imagePath="./@image" index="0" scaleType="fill" onChange="device.toastPopup('Change')" />
+				<WINDOW defaultImg="#ffffff" align="flow:vertical|center" padding="0 20px 0 20px">
+					<GALLERY id="gallery" layout="720,480" defaultImg="#00c8c8c8" dataSource="http://www.ebunyang.co.kr/AjaxContent/SYFieldReportAPPPhoto.php?report_cd={userVariable.sy_id}" dataList="/DATA/ITEM" imagePath="./@image" index="0" scaleType="fill" onChange="device.toastPopup('Change')" />
 				</WINDOW>
 
 
