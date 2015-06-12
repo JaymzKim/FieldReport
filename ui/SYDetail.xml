@@ -97,6 +97,12 @@
 					</WINDOW>
 				</WINDOW>
 
+
+				<WINDOW defaultImg="#ffffff" align="flow:vertical|center">
+					<GALLERY id="gallery" layout="720,480" defaultImg="#00c8c8c8" dataSource="http://www.ebunyang.co.kr/AjaxContent/SYFieldReportAPPPhoto.php?report_cd={userVariable.sy_id} dataList="/DATA/ITEM" imagePath="./@image" index="0" scaleType="fill" onChange="device.toastPopup('Change')" />
+				</WINDOW>
+
+
 				<WINDOW defaultImg="#ffffff" align="flow:vertical|center">
 					<AGATEWEBVIEW id="webView" layout="720,400" homePage="http://ebunyang.co.kr/m/" src="{caller.homePage}" controls="none" supportZoom="false">
                     <LINKMAP>
