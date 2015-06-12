@@ -107,8 +107,9 @@
 				</WINDOW>
 
 
-				<WINDOW defaultImg="#ffffff" align="flow:vertical|center">
-					<AGATEWEBVIEW id="webView" layout="720,400" homePage="http://ebunyang.co.kr/test/SYFieldReportAppMap" src="{caller.homePage}" controls="none" supportZoom="false">
+				<WINDOW layout="720,600" defaultImg="#ffffff" align="flow:vertical|top">
+					<WINDOW layout="720,30"/>
+					<AGATEWEBVIEW id="webView" layout="720,400" homePage="http://ebunyang.co.kr/test/SYFieldReportAppMap.php" src="{caller.homePage}" controls="none" supportZoom="false">
                     <LINKMAP>
                         <LINK url="*" delay="1"/>
                     </LINKMAP>
