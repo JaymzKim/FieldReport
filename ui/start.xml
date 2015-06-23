@@ -4,7 +4,7 @@
 <FUNCTION id="SYDetailPopup(sy_value)">
 	<CMD cmd="userVariable.detailY = 10" />
 	<CMD cmd="userVariable.sy_id = sy_value" />
-	<CMD cmd="container.open('SYDetail.xml','new')" />
+	<CMD cmd="container.open('SYDetail.xml',new)" />
 </FUNCTION>
 <UI>
     <UILAYOUT portrait="720,1230" landscape="720,1230">
