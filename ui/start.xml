@@ -8,8 +8,8 @@
 </FUNCTION>
 <UI>
     <UILAYOUT portrait="720,1230" landscape="720,1230">
-                <WINDOW defaultImg="#ffffff" align="flow:vertical" onClick="function.SYDetailPopup('29')">
-					<WINDOW align="relative">
+                <WINDOW defaultImg="#ffffff" align="flow:vertical">
+					<WINDOW align="relative" onClick="function.SYDetailPopup('29')">
 						<IMAGE layout="0,0,720,auto" align="linear:vertical" loadingEffect="fadeIn" loadingImg="#e5e5e5" defaultImg="#dddddd"/>
 						<LABEL layout="25,prev.height-80,700,60" align="linear:vertical" text="www" fontSize="50" minFontSize="-1" fontStyle="bold" textColor="#ffffff" textShadow="#90000000"/>
 					</WINDOW>
